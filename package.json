@@ -1,0 +1,57 @@
+{
+  "name": "@commencis/js-toolkit",
+  "description": "Commencis JavaScript Toolkit for Coding Standards",
+  "keywords": [
+    "commencis",
+    "javascript",
+    "typescript",
+    "toolkit",
+    "config",
+    "coding-standards",
+    "style-guide",
+    "lint",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "commitlint"
+  ],
+  "private": true,
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">= 20.14"
+  },
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "pnpm run build",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint:types": "turbo run lint:types",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:format": "prettier . --check",
+    "lint:format:fix": "prettier . --write --list-different",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "turbo run test",
+    "test:coverage": "vitest run --coverage",
+    "precommit": "lint-staged",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commencis/commitlint-config": "workspace:*",
+    "@commencis/eslint-config": "workspace:*",
+    "@commencis/prettier-config": "workspace:*",
+    "@commitlint/cli": "19.3.0",
+    "@vitest/coverage-v8": "1.6.0",
+    "eslint": "9.6.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "prettier": "3.3.2",
+    "turbo": "2.0.6",
+    "typescript-eslint": "8.0.0-alpha.30",
+    "vitest": "1.6.0"
+  }
+}

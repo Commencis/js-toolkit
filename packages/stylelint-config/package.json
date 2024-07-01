@@ -1,0 +1,58 @@
+{
+  "name": "@commencis/stylelint-config",
+  "version": "0.0.1",
+  "description": "Commencis Stylelint config",
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "type": "module",
+  "homepage": "https://github.com/Commencis/js-toolkit/packages/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Commencis/js-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commencis/js-toolkit.git",
+    "directory": "packages/stylelint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/scss-modules.js",
+  "files": [
+    "dist",
+    "*.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./dist/scss-modules.js",
+    "./css": "./dist/css.js",
+    "./scss": "./dist/scss.js",
+    "./css-modules": "./dist/css-modules.js",
+    "./scss-modules": "./dist/scss-modules.js",
+    "./styled": "./dist/styled.js",
+    "./vue": "./dist/vue.js",
+    "./vue-scss": "./dist/vue-scss.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stylistic/stylelint-config": "1.0.1",
+    "postcss-styled-syntax": "0.6.4",
+    "stylelint-config-html": "1.1.0",
+    "stylelint-config-prettier-scss": "1.0.0",
+    "stylelint-config-standard": "36.0.1",
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-order": "6.0.4"
+  },
+  "devDependencies": {
+    "@commencis/ts-config": "workspace:*",
+    "tsup": "8.1.0",
+    "typescript": "5.4.5"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 15"
+  }
+}

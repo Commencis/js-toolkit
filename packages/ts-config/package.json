@@ -1,0 +1,16 @@
+{
+  "name": "@commencis/ts-config",
+  "version": "0.0.1",
+  "description": "Commencis TypeScript Config",
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/tsconfig.base.json",
+    "./base": "./src/tsconfig.base.json"
+  },
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ]
+}

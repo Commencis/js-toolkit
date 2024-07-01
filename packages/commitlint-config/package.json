@@ -1,0 +1,46 @@
+{
+  "name": "@commencis/commitlint-config",
+  "version": "0.0.1",
+  "description": "Commencis Commitlint config",
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "type": "module",
+  "homepage": "https://github.com/Commencis/js-toolkit/packages/commitlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Commencis/js-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commencis/js-toolkit.git",
+    "directory": "packages/commitlint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "*.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "19.2.2"
+  },
+  "devDependencies": {
+    "@commencis/ts-config": "workspace:*",
+    "@commitlint/types": "19.0.3",
+    "tsup": "8.1.0",
+    "typescript": "5.4.5"
+  }
+}
