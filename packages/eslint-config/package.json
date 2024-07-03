@@ -5,7 +5,7 @@
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
   "type": "module",
-  "homepage": "https://github.com/Commencis/js-toolkit/packages/eslint-config#readme",
+  "homepage": "https://github.com/Commencis/js-toolkit/tree/main/packages/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/Commencis/js-toolkit/issues"
   },
