@@ -1,8 +1,10 @@
 import vuePlugin from 'eslint-plugin-vue';
 
-import { FlatConfig } from '@/types';
+import { FlatConfigArray } from '@/types';
 
-export const vuePluginConfig: FlatConfig = {
-  ...vuePlugin.configs.recommended,
-  name: 'commencis/plugin:vue',
-};
+export const vuePluginConfig: FlatConfigArray = [
+  ...vuePlugin.configs['flat/recommended'],
+  {
+    name: 'commencis/plugin:vue',
+  },
+];
