@@ -42,9 +42,9 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commencis/commitlint-config": "workspace:*",
-    "@commencis/eslint-config": "workspace:*",
-    "@commencis/prettier-config": "workspace:*",
+    "@commencis/commitlint-config": "1.0.1",
+    "@commencis/eslint-config": "1.0.1",
+    "@commencis/prettier-config": "1.0.1",
     "@commitlint/cli": "19.3.0",
     "@vitest/coverage-v8": "1.6.0",
     "eslint": "9.6.0",
