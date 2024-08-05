@@ -37,6 +37,7 @@
     "lint:fix": "turbo run lint:fix",
     "test": "turbo run test",
     "test:coverage": "vitest run --coverage",
+    "ci:review": "pnpm run lint && pnpm run test",
     "precommit": "lint-staged",
     "prepare": "husky"
   },
