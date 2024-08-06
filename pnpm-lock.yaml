@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@commencis/commitlint-config':
-        specifier: workspace:*
-        version: link:packages/commitlint-config
+        specifier: 1.0.1
+        version: 1.0.1
       '@commencis/eslint-config':
-        specifier: workspace:*
-        version: link:packages/eslint-config
+        specifier: 1.0.1
+        version: 1.0.1(@types/eslint@8.56.10)(eslint@9.6.0)(prettier@3.3.2)(typescript@5.4.5)
       '@commencis/prettier-config':
-        specifier: workspace:*
-        version: link:packages/prettier-config
+        specifier: 1.0.1
+        version: 1.0.1
       '@commitlint/cli':
         specifier: 19.3.0
         version: 19.3.0(@types/node@20.12.11)(typescript@5.4.5)
@@ -222,6 +222,17 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@commencis/commitlint-config@1.0.1':
+    resolution: {integrity: sha512-BxdqwZtNDuxCZUv2Wf/R8YEb2DEv6fNH8HwOsf8wVuhNEcWRmv6YnwlIwigJFDRqpufGsxs7xcwKB/u6yYS9GA==}
+
+  '@commencis/eslint-config@1.0.1':
+    resolution: {integrity: sha512-0kf/ifz8k74MUNtlVmIRx4U06CUsZPMTFDDibua2K3TyuY92zEYkWJD1Oae+nhuPuMEznhmuuW1f4CBRcX06yQ==}
+    peerDependencies:
+      eslint: '>= 9'
+
+  '@commencis/prettier-config@1.0.1':
+    resolution: {integrity: sha512-pmGSDGJmmIJWcEzOGu11QlwR7pjczGcq9OZaCDREMk27+fKb1u+rfVag2CxkCu2McwFENR9SfeL7pofFQZc+hA==}
 
   '@commitlint/cli@19.3.0':
     resolution: {integrity: sha512-LgYWOwuDR7BSTQ9OLZ12m7F/qhNY+NpAyPBgo4YNMkACE7lGuUnuQq1yi9hz1KA4+3VqpOYl8H1rY/LYK43v7g==}
@@ -2999,6 +3010,33 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
+  '@commencis/commitlint-config@1.0.1':
+    dependencies:
+      '@commitlint/config-conventional': 19.2.2
+
+  '@commencis/eslint-config@1.0.1(@types/eslint@8.56.10)(eslint@9.6.0)(prettier@3.3.2)(typescript@5.4.5)':
+    dependencies:
+      '@eslint/js': 9.6.0
+      '@next/eslint-plugin-next': 14.2.4
+      '@typescript-eslint/utils': 8.0.0-alpha.30(eslint@9.6.0)(typescript@5.4.5)
+      eslint: 9.6.0
+      eslint-config-prettier: 9.1.0(eslint@9.6.0)
+      eslint-plugin-jsx-a11y: 6.9.0(eslint@9.6.0)
+      eslint-plugin-prettier: 5.1.3(@types/eslint@8.56.10)(eslint-config-prettier@9.1.0(eslint@9.6.0))(eslint@9.6.0)(prettier@3.3.2)
+      eslint-plugin-react: 7.34.3(eslint@9.6.0)
+      eslint-plugin-react-hooks: 4.6.2(eslint@9.6.0)
+      eslint-plugin-simple-import-sort: 12.1.0(eslint@9.6.0)
+      eslint-plugin-vue: 9.26.0(eslint@9.6.0)
+      globals: 15.6.0
+      typescript-eslint: 8.0.0-alpha.30(eslint@9.6.0)(typescript@5.4.5)
+    transitivePeerDependencies:
+      - '@types/eslint'
+      - prettier
+      - supports-color
+      - typescript
+
+  '@commencis/prettier-config@1.0.1': {}
+
   '@commitlint/cli@19.3.0(@types/node@20.12.11)(typescript@5.4.5)':
     dependencies:
       '@commitlint/format': 19.3.0
@@ -4235,6 +4273,10 @@ snapshots:
     dependencies:
       eslint: 9.4.0
 
+  eslint-config-prettier@9.1.0(eslint@9.6.0):
+    dependencies:
+      eslint: 9.6.0
+
   eslint-plugin-jsx-a11y@6.9.0(eslint@9.4.0):
     dependencies:
       aria-query: 5.1.3
@@ -4255,6 +4297,26 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
+  eslint-plugin-jsx-a11y@6.9.0(eslint@9.6.0):
+    dependencies:
+      aria-query: 5.1.3
+      array-includes: 3.1.8
+      array.prototype.flatmap: 1.3.2
+      ast-types-flow: 0.0.8
+      axe-core: 4.9.1
+      axobject-query: 3.1.1
+      damerau-levenshtein: 1.0.8
+      emoji-regex: 9.2.2
+      es-iterator-helpers: 1.0.19
+      eslint: 9.6.0
+      hasown: 2.0.2
+      jsx-ast-utils: 3.3.5
+      language-tags: 1.0.9
+      minimatch: 3.1.2
+      object.fromentries: 2.0.8
+      safe-regex-test: 1.0.3
+      string.prototype.includes: 2.0.0
+
   eslint-plugin-prettier@5.1.3(@types/eslint@8.56.10)(eslint-config-prettier@9.1.0(eslint@9.4.0))(eslint@9.4.0)(prettier@3.3.2):
     dependencies:
       eslint: 9.4.0
@@ -4265,9 +4327,23 @@ snapshots:
       '@types/eslint': 8.56.10
       eslint-config-prettier: 9.1.0(eslint@9.4.0)
 
+  eslint-plugin-prettier@5.1.3(@types/eslint@8.56.10)(eslint-config-prettier@9.1.0(eslint@9.6.0))(eslint@9.6.0)(prettier@3.3.2):
+    dependencies:
+      eslint: 9.6.0
+      prettier: 3.3.2
+      prettier-linter-helpers: 1.0.0
+      synckit: 0.8.8
+    optionalDependencies:
+      '@types/eslint': 8.56.10
+      eslint-config-prettier: 9.1.0(eslint@9.6.0)
+
   eslint-plugin-react-hooks@4.6.2(eslint@9.4.0):
     dependencies:
       eslint: 9.4.0
+
+  eslint-plugin-react-hooks@4.6.2(eslint@9.6.0):
+    dependencies:
+      eslint: 9.6.0
 
   eslint-plugin-react@7.34.3(eslint@9.4.0):
     dependencies:
@@ -4291,9 +4367,35 @@ snapshots:
       semver: 6.3.1
       string.prototype.matchall: 4.0.11
 
+  eslint-plugin-react@7.34.3(eslint@9.6.0):
+    dependencies:
+      array-includes: 3.1.8
+      array.prototype.findlast: 1.2.5
+      array.prototype.flatmap: 1.3.2
+      array.prototype.toreversed: 1.1.2
+      array.prototype.tosorted: 1.1.4
+      doctrine: 2.1.0
+      es-iterator-helpers: 1.0.19
+      eslint: 9.6.0
+      estraverse: 5.3.0
+      jsx-ast-utils: 3.3.5
+      minimatch: 3.1.2
+      object.entries: 1.1.8
+      object.fromentries: 2.0.8
+      object.hasown: 1.1.4
+      object.values: 1.2.0
+      prop-types: 15.8.1
+      resolve: 2.0.0-next.5
+      semver: 6.3.1
+      string.prototype.matchall: 4.0.11
+
   eslint-plugin-simple-import-sort@12.1.0(eslint@9.4.0):
     dependencies:
       eslint: 9.4.0
+
+  eslint-plugin-simple-import-sort@12.1.0(eslint@9.6.0):
+    dependencies:
+      eslint: 9.6.0
 
   eslint-plugin-vue@9.26.0(eslint@9.4.0):
     dependencies:
@@ -4305,6 +4407,20 @@ snapshots:
       postcss-selector-parser: 6.1.0
       semver: 7.6.2
       vue-eslint-parser: 9.4.3(eslint@9.4.0)
+      xml-name-validator: 4.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  eslint-plugin-vue@9.26.0(eslint@9.6.0):
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@9.6.0)
+      eslint: 9.6.0
+      globals: 13.24.0
+      natural-compare: 1.4.0
+      nth-check: 2.1.1
+      postcss-selector-parser: 6.1.0
+      semver: 7.6.2
+      vue-eslint-parser: 9.4.3(eslint@9.6.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5926,6 +6042,19 @@ snapshots:
     dependencies:
       debug: 4.3.4
       eslint: 9.4.0
+      eslint-scope: 7.2.2
+      eslint-visitor-keys: 3.4.3
+      espree: 9.6.1
+      esquery: 1.5.0
+      lodash: 4.17.21
+      semver: 7.6.2
+    transitivePeerDependencies:
+      - supports-color
+
+  vue-eslint-parser@9.4.3(eslint@9.6.0):
+    dependencies:
+      debug: 4.3.4
+      eslint: 9.6.0
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
