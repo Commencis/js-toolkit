@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":automergeDisabled",
+    ":enableVulnerabilityAlerts",
+    ":maintainLockFilesMonthly",
+    ":prConcurrentLimit10",
+    ":separateMultipleMajorReleases"
+  ],
+  "timezone": "Europe/Istanbul",
+  "schedule": ["before 8am"],
+  "baseBranches": ["main"],
+  "reviewers": ["ymehmetcan", "serhatyuna"]
+}
