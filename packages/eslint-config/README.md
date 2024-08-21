@@ -51,6 +51,20 @@ export default defineConfig(...commencisReactConfig, {
 });
 ```
 
+### Example Usage for React-Native/Typescript Project:
+
+```javascript
+// eslint.config.js
+import {
+  commencisReactNativeConfig,
+  defineConfig,
+} from '@commencis/eslint-config';
+
+export default defineConfig(...commencisReactNativeConfig, {
+  /* ... */
+});
+```
+
 ### Example Usage for NextJs/Typescript Project:
 
 ```javascript
