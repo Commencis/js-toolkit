@@ -4,7 +4,7 @@
     "config:recommended",
     ":automergeDisabled",
     ":enableVulnerabilityAlerts",
-    ":maintainLockFilesMonthly",
+    ":maintainLockFilesWeekly",
     ":prConcurrentLimit10",
     ":separateMultipleMajorReleases"
   ],
