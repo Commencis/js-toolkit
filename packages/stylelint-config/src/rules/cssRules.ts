@@ -1,5 +1,13 @@
 export const cssRules = {
-  'color-named': 'never',
-  'no-unknown-animations': true,
+  // General
   'selector-max-combinators': 4,
+
+  // Color
+  'color-named': 'never',
+  'color-function-notation': 'legacy',
+  'alpha-value-notation': 'number',
+  'color-hex-length': null,
+
+  // Animation
+  'no-unknown-animations': true,
 };
