@@ -1,4 +1,5 @@
 export const scssRules = {
   'scss/dollar-variable-no-namespaced-assignment': true,
   'scss/no-duplicate-dollar-variables': true,
+  'scss/at-mixin-argumentless-call-parentheses': null,
 };
