@@ -87,38 +87,40 @@ export const orderRules = {
   'order/properties-order': [
     [
       createLogicalGroup('All', ['all', 'page']),
-      createLogicalGroup(
-        'Print',
-        ['break-before', 'break-inside', 'break-after', 'orphans', 'widows'],
-        'threshold'
-      ),
+      createLogicalGroup('Print', [
+        'break-before',
+        'break-inside',
+        'break-after',
+        'orphans',
+        'widows',
+      ]),
       createLogicalGroup('Actions', [
         'cursor',
         'pointer-events',
         'touch-action',
         'resize',
       ]),
-      createLogicalGroup(
-        'User Actions',
-        ['user-select', 'user-zoom'],
-        'threshold'
-      ),
-      createLogicalGroup('Content', ['content', 'quotes'], 'threshold'),
+      createLogicalGroup('User Actions', ['user-select', 'user-zoom'], 'never'),
+      createLogicalGroup('Content', ['content', 'quotes'], 'never'),
       createLogicalGroup(
         'Counter',
         ['counter-increment', 'counter-set', 'counter-reset'],
-        'threshold'
+        'never'
       ),
-      createLogicalGroup('List', [
-        'list-style',
-        'list-style-type',
-        'list-style-position',
-        'list-style-image',
-      ]),
+      createLogicalGroup(
+        'List',
+        [
+          'list-style',
+          'list-style-type',
+          'list-style-position',
+          'list-style-image',
+        ],
+        'never'
+      ),
       createLogicalGroup(
         'Marker',
         ['marker', 'marker-start', 'marker-mid', 'marker-end'],
-        'threshold'
+        'never'
       ),
       createLogicalGroup('Display', [
         'display',
@@ -128,44 +130,60 @@ export const orderRules = {
         'backface-visibility',
         'appearance',
       ]),
+      createLogicalGroup('Gap', ['gap', 'column-gap', 'row-gap'], 'never'),
       createLogicalGroup(
-        'Position',
+        'Alignment',
         [
-          'position',
-          'float',
-          'clear',
-          'offset',
-          'offset-position',
-          'offset-path',
-          'offset-distance',
-          'offset-rotate',
-          'offset-anchor',
-          'inset',
-          'inset-block',
-          'inset-block-start',
-          'inset-block-end',
-          'inset-inline',
-          'inset-inline-start',
-          'inset-inline-end',
-          'top',
-          'right',
-          'bottom',
-          'left',
-          'z-index',
+          'place-content',
+          'place-items',
+          'place-self',
+          'align-content',
+          'align-items',
+          'align-self',
+          'justify-content',
+          'justify-items',
+          'justify-self',
         ],
-        'threshold'
+        'never'
       ),
-      createLogicalGroup('Outline', [
-        'outline',
-        'outline-width',
-        'outline-style',
-        'outline-color',
-        'outline-offset',
+      createLogicalGroup('Position', [
+        'position',
+        'float',
+        'clear',
+        'offset',
+        'offset-position',
+        'offset-path',
+        'offset-distance',
+        'offset-rotate',
+        'offset-anchor',
+        'inset',
+        'inset-block',
+        'inset-block-start',
+        'inset-block-end',
+        'inset-inline',
+        'inset-inline-start',
+        'inset-inline-end',
+        'top',
+        'right',
+        'bottom',
+        'left',
+        'z-index',
       ]),
+      createLogicalGroup(
+        'Outline',
+        [
+          'outline',
+          'outline-width',
+          'outline-style',
+          'outline-color',
+          'outline-offset',
+        ],
+        'never'
+      ),
       createLogicalGroup(
         'Shape',
         ['shape-outside', 'shape-margin', 'shape-image-threshold'],
-        'threshold'
+        'never'
       ),
       createLogicalGroup(
         'Mask',
@@ -188,7 +206,7 @@ export const orderRules = {
           'mask-mode',
           'mask-composite',
         ],
-        'threshold'
+        'never'
       ),
       createLogicalGroup('Margin', [
         'margin',
@@ -266,22 +284,18 @@ export const orderRules = {
           'border-image-outset',
           'border-image-repeat',
         ],
-        'threshold'
+        'never'
       ),
       createLogicalGroup(
         'Box',
         ['box-sizing', 'box-decoration-break', 'box-shadow'],
-        'threshold'
+        'never'
       ),
-      createLogicalGroup(
-        'Object',
-        ['object-fit', 'object-position'],
-        'threshold'
-      ),
+      createLogicalGroup('Object', ['object-fit', 'object-position'], 'never'),
       createLogicalGroup(
         'container',
         ['container', 'container-name', 'container-type'],
-        'threshold'
+        'never'
       ),
       createLogicalGroup(
         'Contain',
@@ -293,7 +307,39 @@ export const orderRules = {
           'contain-intrinsic-height',
           'contain-intrinsic-width',
         ],
-        'threshold'
+        'never'
+      ),
+      createLogicalGroup('Color', [
+        'color-scheme',
+        'accent-color',
+        'color',
+        'caret-color',
+        'forced-color-adjust',
+        'print-color-adjust',
+      ]),
+      createLogicalGroup('SVG', ['fill', 'stroke', 'paint-order'], 'never'),
+      createLogicalGroup(
+        'Background',
+        [
+          'background',
+          'background-image',
+          'background-color',
+          'background-origin',
+          'background-size',
+          'background-position',
+          'background-position-y',
+          'background-position-x',
+          'background-repeat',
+          'background-attachment',
+          'background-clip',
+          'background-blend-mode',
+        ],
+        'never'
+      ),
+      createLogicalGroup(
+        'Filter',
+        ['filter', 'backdrop-filter', 'mix-blend-mode', 'clip-path'],
+        'never'
       ),
       createLogicalGroup('Dimensions', [
         'aspect-ratio',
@@ -325,7 +371,7 @@ export const orderRules = {
           'padding-bottom',
           'padding-left',
         ],
-        'threshold'
+        'never'
       ),
       createLogicalGroup(
         'Overflow',
@@ -339,55 +385,7 @@ export const orderRules = {
           'overflow-wrap',
           'overflow-anchor',
         ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Overscroll',
-        [
-          'overscroll-behavior',
-          'overscroll-behavior-block',
-          'overscroll-behavior-inline',
-          'overscroll-behavior-y',
-          'overscroll-behavior-x',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Scroll',
-        [
-          'scroll-margin',
-          'scroll-margin-block',
-          'scroll-margin-block-start',
-          'scroll-margin-block-end',
-          'scroll-margin-inline',
-          'scroll-margin-inline-start',
-          'scroll-margin-inline-end',
-          'scroll-margin-top',
-          'scroll-margin-right',
-          'scroll-margin-bottom',
-          'scroll-margin-left',
-          'scroll-padding',
-          'scroll-padding-block',
-          'scroll-padding-block-start',
-          'scroll-padding-block-end',
-          'scroll-padding-inline',
-          'scroll-padding-inline-start',
-          'scroll-padding-inline-end',
-          'scroll-padding-top',
-          'scroll-padding-right',
-          'scroll-padding-bottom',
-          'scroll-padding-left',
-          'scroll-snap-type',
-          'scroll-snap-align',
-          'scroll-snap-stop',
-          'scroll-behavior',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Scrollbar',
-        ['scrollbar-gutter', 'scrollbar-width', 'scrollbar-color'],
-        'threshold'
+        'never'
       ),
       createLogicalGroup(
         'Columns',
@@ -402,93 +400,98 @@ export const orderRules = {
           'column-rule-style',
           'column-rule-color',
         ],
-        'threshold'
+        'never'
       ),
-      createLogicalGroup(
-        'Grid',
-        [
-          'grid',
-          'grid-area',
-          'grid-template',
-          'grid-template-areas',
-          'grid-template-columns',
-          'grid-template-rows',
-          'grid-auto-flow',
-          'grid-auto-columns',
-          'grid-column',
-          'grid-column-start',
-          'grid-column-end',
-          'grid-auto-rows',
-          'grid-row',
-          'grid-row-start',
-          'grid-row-end',
-          'gap',
-          'column-gap',
-          'row-gap',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Flex',
-        [
-          'flex',
-          'flex-grow',
-          'flex-shrink',
-          'flex-basis',
-          'flex-flow',
-          'flex-direction',
-          'flex-wrap',
-          'order',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Table',
-        [
-          'table-layout',
-          'border-spacing',
-          'border-collapse',
-          'empty-cells',
-          'vertical-align',
-          'caption-side',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup(
-        'Alignment',
-        [
-          'place-content',
-          'place-items',
-          'place-self',
-          'align-content',
-          'align-items',
-          'align-self',
-          'justify-content',
-          'justify-items',
-          'justify-self',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup('Image', ['image-orientation', 'image-rendering']),
-      createLogicalGroup('Typography', [
-        'unicode-bidi',
-        'unicode-range',
-        'tab-size',
-        'direction',
-        'writing-mode',
-        'white-space',
-        'ruby-position',
-        'line-break',
-        'line-height',
-        'word-spacing',
-        'word-wrap',
-        'word-break',
-        'letter-spacing',
-        'hyphens',
-        'hyphenate-character',
-        'hyphenate-limit-chars',
-        'hanging-punctuation',
+      createLogicalGroup('Flex', [
+        'flex',
+        'flex-grow',
+        'flex-shrink',
+        'flex-basis',
+        'flex-flow',
+        'flex-direction',
+        'flex-wrap',
+        'order',
       ]),
+      createLogicalGroup('Grid', [
+        'grid',
+        'grid-area',
+        'grid-template',
+        'grid-template-areas',
+        'grid-template-columns',
+        'grid-template-rows',
+        'grid-auto-flow',
+        'grid-auto-columns',
+        'grid-column',
+        'grid-column-start',
+        'grid-column-end',
+        'grid-auto-rows',
+        'grid-row',
+        'grid-row-start',
+        'grid-row-end',
+      ]),
+
+      createLogicalGroup('Table', [
+        'table-layout',
+        'border-spacing',
+        'border-collapse',
+        'empty-cells',
+        'vertical-align',
+        'caption-side',
+      ]),
+
+      createLogicalGroup('Image', ['image-orientation', 'image-rendering']),
+      createLogicalGroup('Font', [
+        'src',
+        'font',
+        'font-family',
+        'font-size',
+        'font-size-adjust',
+        'font-weight',
+        'font-style',
+        'font-display',
+        'font-palette',
+        'font-kerning',
+        'font-stretch',
+        'font-optical-sizing',
+        'font-language-override',
+        'font-feature-settings',
+        'font-synthesis',
+        'font-synthesis-weight',
+        'font-synthesis-style',
+        'font-synthesis-small-caps',
+        'font-variant',
+        'font-variant-position',
+        'font-variant-ligatures',
+        'font-variant-numeric',
+        'font-variant-emoji',
+        'font-variant-caps',
+        'font-variant-east-asian',
+        'font-variant-alternates',
+        'font-variation-settings',
+      ]),
+      createLogicalGroup(
+        'Typography',
+        [
+          'unicode-bidi',
+          'unicode-range',
+          'tab-size',
+          'direction',
+          'writing-mode',
+          'white-space',
+          'ruby-position',
+          'line-break',
+          'line-height',
+          'word-spacing',
+          'word-wrap',
+          'word-break',
+          'letter-spacing',
+          'hyphens',
+          'hyphenate-character',
+          'hyphenate-limit-chars',
+          'hanging-punctuation',
+        ],
+        'never'
+      ),
       createLogicalGroup(
         'Text',
         [
@@ -517,74 +520,48 @@ export const orderRules = {
           'text-underline-position',
           'text-underline-offset',
         ],
-        'threshold'
+        'never'
       ),
-      createLogicalGroup(
-        'Font',
-        [
-          'src',
-          'font',
-          'font-family',
-          'font-size',
-          'font-size-adjust',
-          'font-weight',
-          'font-style',
-          'font-display',
-          'font-palette',
-          'font-kerning',
-          'font-stretch',
-          'font-optical-sizing',
-          'font-language-override',
-          'font-feature-settings',
-          'font-synthesis',
-          'font-synthesis-weight',
-          'font-synthesis-style',
-          'font-synthesis-small-caps',
-          'font-variant',
-          'font-variant-position',
-          'font-variant-ligatures',
-          'font-variant-numeric',
-          'font-variant-emoji',
-          'font-variant-caps',
-          'font-variant-east-asian',
-          'font-variant-alternates',
-          'font-variation-settings',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup('Math', ['math-depth', 'math-style'], 'threshold'),
-      createLogicalGroup('SVG', ['fill', 'stroke', 'paint-order'], 'threshold'),
-      createLogicalGroup(
-        'Color',
-        [
-          'color-scheme',
-          'accent-color',
-          'color',
-          'caret-color',
-          'forced-color-adjust',
-          'print-color-adjust',
-        ],
-        'threshold'
-      ),
-      createLogicalGroup('Background', [
-        'background',
-        'background-image',
-        'background-color',
-        'background-origin',
-        'background-size',
-        'background-position',
-        'background-position-y',
-        'background-position-x',
-        'background-repeat',
-        'background-attachment',
-        'background-clip',
-        'background-blend-mode',
+      createLogicalGroup('Math', ['math-depth', 'math-style']),
+      createLogicalGroup('Overscroll', [
+        'overscroll-behavior',
+        'overscroll-behavior-block',
+        'overscroll-behavior-inline',
+        'overscroll-behavior-y',
+        'overscroll-behavior-x',
       ]),
-      createLogicalGroup('Filter', [
-        'filter',
-        'backdrop-filter',
-        'mix-blend-mode',
-        'clip-path',
+      createLogicalGroup('Scroll', [
+        'scroll-margin',
+        'scroll-margin-block',
+        'scroll-margin-block-start',
+        'scroll-margin-block-end',
+        'scroll-margin-inline',
+        'scroll-margin-inline-start',
+        'scroll-margin-inline-end',
+        'scroll-margin-top',
+        'scroll-margin-right',
+        'scroll-margin-bottom',
+        'scroll-margin-left',
+        'scroll-padding',
+        'scroll-padding-block',
+        'scroll-padding-block-start',
+        'scroll-padding-block-end',
+        'scroll-padding-inline',
+        'scroll-padding-inline-start',
+        'scroll-padding-inline-end',
+        'scroll-padding-top',
+        'scroll-padding-right',
+        'scroll-padding-bottom',
+        'scroll-padding-left',
+        'scroll-snap-type',
+        'scroll-snap-align',
+        'scroll-snap-stop',
+        'scroll-behavior',
+      ]),
+      createLogicalGroup('Scrollbar', [
+        'scrollbar-gutter',
+        'scrollbar-width',
+        'scrollbar-color',
       ]),
       createLogicalGroup('Transform', [
         'transform',
