@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
     "prettier": "3.3.3",
-    "tsup": "8.1.0",
+    "tsup": "8.2.4",
     "typescript": "5.4.5"
   }
 }
