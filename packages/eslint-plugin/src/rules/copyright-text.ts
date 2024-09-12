@@ -40,7 +40,9 @@ export default createRule<[RuleOptions], MessageIds>({
 
   create(context, [options]) {
     const startYear = options.startYear ?? DEFAULT_START_YEAR;
-    const expectedCopyrightText = getCopyrightText(startYear);
+    const isHtml = context.filename.endsWith('.vue');
+
+    const expectedCopyrightText = getCopyrightText(startYear, isHtml);
 
     return {
       Program(node: TSESTree.Program) {
