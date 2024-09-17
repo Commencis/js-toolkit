@@ -11,10 +11,7 @@ import type { Linter } from 'eslint';
  * (https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#using-plugins-in-your-configuration)
  */
 
-export type FlatConfig = Omit<
-  Linter.FlatConfig<Linter.RulesRecord>,
-  'plugins'
-> & {
+export type FlatConfig = Omit<Linter.Config, 'plugins'> & {
   plugins?: Record<string, unknown>;
 };
 
