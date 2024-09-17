@@ -25,36 +25,36 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./base": {
-      "import": "./dist/configs/base.js",
-      "types": "./dist/configs/base.d.ts"
+      "types": "./dist/configs/base.d.ts",
+      "import": "./dist/configs/base.js"
     },
     "./next": {
-      "import": "./dist/configs/next.js",
-      "types": "./dist/configs/next.d.ts"
+      "types": "./dist/configs/next.d.ts",
+      "import": "./dist/configs/next.js"
     },
     "./prettier": {
-      "import": "./dist/configs/prettier.js",
-      "types": "./dist/configs/prettier.d.ts"
+      "types": "./dist/configs/prettier.d.ts",
+      "import": "./dist/configs/prettier.js"
     },
     "./react": {
-      "import": "./dist/configs/react.js",
-      "types": "./dist/configs/react.d.ts"
+      "types": "./dist/configs/react.d.ts",
+      "import": "./dist/configs/react.js"
     },
     "./react-native": {
-      "import": "./dist/configs/react-native.js",
-      "types": "./dist/configs/react-native.d.ts"
+      "types": "./dist/configs/react-native.d.ts",
+      "import": "./dist/configs/react-native.js"
     },
     "./typescript": {
-      "import": "./dist/configs/typescript.js",
-      "types": "./dist/configs/typescript.d.ts"
+      "types": "./dist/configs/typescript.d.ts",
+      "import": "./dist/configs/typescript.js"
     },
     "./vue": {
-      "import": "./dist/configs/vue.js",
-      "types": "./dist/configs/vue.d.ts"
+      "types": "./dist/configs/vue.d.ts",
+      "import": "./dist/configs/vue.js"
     }
   },
   "scripts": {
