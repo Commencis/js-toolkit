@@ -35,11 +35,11 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "19.4.1"
+    "@commitlint/config-conventional": "19.5.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
-    "@commitlint/types": "19.0.3",
+    "@commitlint/types": "19.5.0",
     "tsup": "8.2.4",
     "typescript": "5.4.5"
   }
