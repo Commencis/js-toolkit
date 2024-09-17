@@ -10,7 +10,8 @@ export const jsxA11yPluginConfig: FlatConfig = {
   plugins: {
     'jsx-a11y': jsxA11yPlugin,
   },
+  languageOptions: { ...jsxA11yPlugin.flatConfigs.recommended.languageOptions },
   rules: {
-    ...jsxA11yPlugin.configs.recommended.rules,
+    ...jsxA11yPlugin.flatConfigs.recommended.rules,
   },
 };
