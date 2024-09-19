@@ -20,7 +20,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">= 20.14"
+    "node": ">= 20.17"
   },
   "packageManager": "pnpm@9.10.0",
   "scripts": {
@@ -45,13 +45,13 @@
     "@commencis/commitlint-config": "1.0.1",
     "@commencis/eslint-config": "1.0.1",
     "@commencis/prettier-config": "1.0.1",
-    "@commitlint/cli": "19.4.1",
-    "@vitest/coverage-v8": "1.6.0",
-    "eslint": "9.6.0",
-    "husky": "9.1.5",
+    "@commitlint/cli": "19.5.0",
+    "@vitest/coverage-v8": "2.1.1",
+    "eslint": "9.10.0",
+    "husky": "9.1.6",
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
-    "turbo": "2.1.1",
-    "vitest": "1.6.0"
+    "turbo": "2.1.2",
+    "vitest": "2.1.1"
   }
 }

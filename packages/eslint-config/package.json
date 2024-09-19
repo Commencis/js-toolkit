@@ -25,36 +25,36 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./base": {
-      "import": "./dist/configs/base.js",
-      "types": "./dist/configs/base.d.ts"
+      "types": "./dist/configs/base.d.ts",
+      "import": "./dist/configs/base.js"
     },
     "./next": {
-      "import": "./dist/configs/next.js",
-      "types": "./dist/configs/next.d.ts"
+      "types": "./dist/configs/next.d.ts",
+      "import": "./dist/configs/next.js"
     },
     "./prettier": {
-      "import": "./dist/configs/prettier.js",
-      "types": "./dist/configs/prettier.d.ts"
+      "types": "./dist/configs/prettier.d.ts",
+      "import": "./dist/configs/prettier.js"
     },
     "./react": {
-      "import": "./dist/configs/react.js",
-      "types": "./dist/configs/react.d.ts"
+      "types": "./dist/configs/react.d.ts",
+      "import": "./dist/configs/react.js"
     },
     "./react-native": {
-      "import": "./dist/configs/react-native.js",
-      "types": "./dist/configs/react-native.d.ts"
+      "types": "./dist/configs/react-native.d.ts",
+      "import": "./dist/configs/react-native.js"
     },
     "./typescript": {
-      "import": "./dist/configs/typescript.js",
-      "types": "./dist/configs/typescript.d.ts"
+      "types": "./dist/configs/typescript.d.ts",
+      "import": "./dist/configs/typescript.js"
     },
     "./vue": {
-      "import": "./dist/configs/vue.js",
-      "types": "./dist/configs/vue.d.ts"
+      "types": "./dist/configs/vue.d.ts",
+      "import": "./dist/configs/vue.js"
     }
   },
   "scripts": {
@@ -63,26 +63,26 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "9.6.0",
-    "@next/eslint-plugin-next": "14.2.4",
-    "@typescript-eslint/utils": "8.2.0",
+    "@eslint/js": "9.10.0",
+    "@next/eslint-plugin-next": "14.2.11",
+    "@typescript-eslint/utils": "8.6.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsx-a11y": "6.9.0",
-    "eslint-plugin-prettier": "5.1.3",
-    "eslint-plugin-react": "7.34.3",
+    "eslint-plugin-jsx-a11y": "6.10.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-react": "7.36.1",
     "eslint-plugin-react-hooks": "4.6.2",
-    "eslint-plugin-simple-import-sort": "12.1.0",
-    "eslint-plugin-vue": "9.26.0",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "eslint-plugin-vue": "9.28.0",
     "globals": "15.9.0",
-    "typescript-eslint": "8.2.0"
+    "typescript-eslint": "8.6.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
     "@types/eslint__js": "8.42.3",
-    "tsup": "8.2.4",
-    "typescript": "5.4.5"
+    "tsup": "8.3.0",
+    "typescript": "5.6.2"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">= 9.7"
   }
 }

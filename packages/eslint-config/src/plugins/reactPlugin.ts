@@ -8,12 +8,12 @@ import { reactRules } from '@/rules';
 export const reactPluginConfig: FlatConfig = {
   name: 'commencis/plugin:react',
   files: JSX_TSX_FILE_PATTERNS,
-  languageOptions: { ...reactPlugin.configs.recommended.languageOptions },
+  languageOptions: { ...reactPlugin.configs.flat.recommended.languageOptions },
   plugins: {
     react: reactPlugin,
   },
   rules: {
-    ...reactPlugin.configs.recommended.rules,
+    ...reactPlugin.configs.flat.recommended.rules,
     ...reactRules,
   },
   settings: {

@@ -5,6 +5,7 @@ import typescriptConfig from '@/configs/typescript';
 import type { FlatConfigArray } from '@/types';
 
 import {
+  jsxA11yPluginConfig,
   nextPluginConfig,
   reactHooksPluginConfig,
   reactPluginConfig,
@@ -15,6 +16,7 @@ export default [
   ...typescriptConfig,
   reactPluginConfig,
   reactHooksPluginConfig,
+  jsxA11yPluginConfig,
   nextPluginConfig,
   ...prettierConfig,
   { name: 'commencis/next' },
