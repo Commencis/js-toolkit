@@ -16,4 +16,7 @@ export const reactRules: Linter.RulesRecord = {
   // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
   'react/jsx-uses-react': 'off',
   'react/react-in-jsx-scope': 'off',
+
+  // We are not planning to utilize rules below
+  'react/jsx-props-no-spreading': 'off',
 };
