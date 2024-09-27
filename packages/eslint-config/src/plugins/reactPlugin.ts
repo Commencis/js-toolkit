@@ -14,6 +14,7 @@ export const reactPluginConfig: FlatConfig = {
   },
   rules: {
     ...reactPlugin.configs.flat.recommended.rules,
+    ...reactPlugin.configs.flat['jsx-runtime'].rules,
     ...reactRules,
   },
   settings: {
