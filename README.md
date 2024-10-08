@@ -34,7 +34,7 @@ Before you begin, ensure you have `node: >= 20.18` installed on your system.
 
 #### pnpm
 
-This project uses `pnpm: >= 9.11.0` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
+This project uses `pnpm: >= 9.12.1` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
 
 ```bash
 corepack prepare pnpm@latest --activate
