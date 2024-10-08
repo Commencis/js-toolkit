@@ -30,7 +30,7 @@ The repository is structured as a monorepo, which allows for managing all the pa
 
 #### Node.js
 
-Before you begin, ensure you have `node: >= 20.17` installed on your system.
+Before you begin, ensure you have `node: >= 20.18` installed on your system.
 
 #### pnpm
 
