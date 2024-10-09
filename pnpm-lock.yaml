@@ -1250,8 +1250,8 @@ packages:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
 
-  css-functions-list@3.2.2:
-    resolution: {integrity: sha512-c+N0v6wbKVxTu5gOBBFkr9BEdBWaqqjQeiJ8QvSRIJOf+UxlJh930m8e6/WNeODIK0mYLFkoONrnj16i2EcvfQ==}
+  css-functions-list@3.2.3:
+    resolution: {integrity: sha512-IQOkD3hbR5KrN93MtcYuad6YPuTSUhntLHDuLEbFWE+ff2/XSZNdZG+LcbbIW5AXKg/WFIfYItIzVoHngHXZzA==}
     engines: {node: '>=12 || >=16'}
 
   css-tree@2.3.1:
@@ -1377,8 +1377,8 @@ packages:
   es-get-iterator@1.1.3:
     resolution: {integrity: sha512-sPZmqHBe6JIiTfN5q2pEi//TwxmAFHwj/XEuYjTuse78i8KxaqMTTzxPoFKuzRpDpTJ+0NAbpfenkmH2rePtuw==}
 
-  es-iterator-helpers@1.0.19:
-    resolution: {integrity: sha512-zoMwbCcH5hwUkKJkT8kDIBZSz9I6mVG//+lDCinLCGov4+r7NIy0ld8o03M0cJxl2spVf6ESYVS6/gpIfq1FFw==}
+  es-iterator-helpers@1.1.0:
+    resolution: {integrity: sha512-/SurEfycdyssORP/E+bj4sEu1CWw4EmLDsHynHwSXQ7utgbrMRWW195pTrCjFgFCddf/UkYm3oqKPRq5i8bJbw==}
     engines: {node: '>= 0.4'}
 
   es-object-atoms@1.0.0:
@@ -4130,7 +4130,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  css-functions-list@3.2.2: {}
+  css-functions-list@3.2.3: {}
 
   css-tree@2.3.1:
     dependencies:
@@ -4317,7 +4317,7 @@ snapshots:
       isarray: 2.0.5
       stop-iteration-iterator: 1.0.0
 
-  es-iterator-helpers@1.0.19:
+  es-iterator-helpers@1.1.0:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
@@ -4427,7 +4427,7 @@ snapshots:
       axobject-query: 4.1.0
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
-      es-iterator-helpers: 1.0.19
+      es-iterator-helpers: 1.1.0
       eslint: 9.12.0(jiti@1.21.6)
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -4447,7 +4447,7 @@ snapshots:
       axobject-query: 3.1.1
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
-      es-iterator-helpers: 1.0.19
+      es-iterator-helpers: 1.1.0
       eslint: 9.12.0(jiti@1.21.6)
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -4489,7 +4489,7 @@ snapshots:
       array.prototype.toreversed: 1.1.2
       array.prototype.tosorted: 1.1.4
       doctrine: 2.1.0
-      es-iterator-helpers: 1.0.19
+      es-iterator-helpers: 1.1.0
       eslint: 9.12.0(jiti@1.21.6)
       estraverse: 5.3.0
       jsx-ast-utils: 3.3.5
@@ -4510,7 +4510,7 @@ snapshots:
       array.prototype.flatmap: 1.3.2
       array.prototype.tosorted: 1.1.4
       doctrine: 2.1.0
-      es-iterator-helpers: 1.0.19
+      es-iterator-helpers: 1.1.0
       eslint: 9.12.0(jiti@1.21.6)
       estraverse: 5.3.0
       hasown: 2.0.2
@@ -5782,7 +5782,7 @@ snapshots:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 9.0.0(typescript@5.6.3)
-      css-functions-list: 3.2.2
+      css-functions-list: 3.2.3
       css-tree: 2.3.1
       debug: 4.3.7
       fast-glob: 3.3.2
