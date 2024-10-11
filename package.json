@@ -42,7 +42,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commencis/commitlint-config": "1.0.1",
+    "@commencis/commitlint-config": "1.1.0",
     "@commencis/eslint-config": "1.0.1",
     "@commencis/prettier-config": "1.1.0",
     "@commitlint/cli": "19.5.0",
