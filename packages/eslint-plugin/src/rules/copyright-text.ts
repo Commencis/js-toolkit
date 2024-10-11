@@ -45,7 +45,7 @@ export default createRule<[RuleOptions], MessageIds>({
     const expectedCopyrightText = getCopyrightText(startYear, isHtml);
 
     return {
-      Program(node: TSESTree.Program) {
+      Program(node: TSESTree.Program): void {
         const sourceCode = context.sourceCode.getText();
         const trimmedText = sourceCode.trimStart();
 
