@@ -33,7 +33,7 @@ jobs:
         uses: changesets/action@v1
         with:
           version: pnpm run version
-          publish: npx changesets publish
+          publish: npx changeset publish
           commit: 'ci(release): version packages'
           title: 'ci(release): version packages'
         env:
