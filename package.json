@@ -44,7 +44,7 @@
   "devDependencies": {
     "@commencis/commitlint-config": "1.0.1",
     "@commencis/eslint-config": "1.0.1",
-    "@commencis/prettier-config": "1.0.1",
+    "@commencis/prettier-config": "1.1.0",
     "@commitlint/cli": "19.5.0",
     "@vitest/coverage-v8": "2.1.2",
     "eslint": "9.12.0",

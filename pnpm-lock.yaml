@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.1
         version: 1.0.1(@types/eslint@9.6.1)(eslint@9.12.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)
       '@commencis/prettier-config':
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.1.0
+        version: 1.1.0
       '@commitlint/cli':
         specifier: 19.5.0
         version: 19.5.0(@types/node@22.7.5)(typescript@5.6.3)
@@ -228,8 +228,8 @@ packages:
     peerDependencies:
       eslint: '>= 9'
 
-  '@commencis/prettier-config@1.0.1':
-    resolution: {integrity: sha512-pmGSDGJmmIJWcEzOGu11QlwR7pjczGcq9OZaCDREMk27+fKb1u+rfVag2CxkCu2McwFENR9SfeL7pofFQZc+hA==}
+  '@commencis/prettier-config@1.1.0':
+    resolution: {integrity: sha512-ikGRDayHM42TBYdDioid26iULp0RYY6ZLAyYrnRg3dE869R+M4BB5zjiwR4X+N8TN1fCODfw83d96GmHIEcH1Q==}
 
   '@commitlint/cli@19.5.0':
     resolution: {integrity: sha512-gaGqSliGwB86MDmAAKAtV9SV1SHdmN8pnGq4EJU4+hLisQ7IFfx4jvU4s+pk6tl0+9bv6yT+CaZkufOinkSJIQ==}
@@ -3150,7 +3150,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@commencis/prettier-config@1.0.1': {}
+  '@commencis/prettier-config@1.1.0': {}
 
   '@commitlint/cli@19.5.0(@types/node@22.7.5)(typescript@5.6.3)':
     dependencies:
