@@ -37,5 +37,5 @@ jobs:
           commit: 'ci(release): version packages'
           title: 'ci(release): version packages'
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
