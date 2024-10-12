@@ -23,6 +23,7 @@ The repository is structured as a monorepo, which allows for managing all the pa
 | [`@commencis/eslint-plugin`](./packages/eslint-plugin)         | [![npm](https://img.shields.io/npm/v/@commencis/eslint-plugin?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-plugin)         |
 | [`@commencis/stylelint-config`](./packages/stylelint-config)   | [![npm](https://img.shields.io/npm/v/@commencis/stylelint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/stylelint-config)   |
 | [`@commencis/prettier-config`](./packages/prettier-config)     | [![npm](https://img.shields.io/npm/v/@commencis/prettier-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/prettier-config)     |
+| [`@commencis/ts-config`](./packages/ts-config)                 | [![npm](https://img.shields.io/npm/v/@commencis/ts-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/ts-config)                 |
 
 ## For Contributors:
 
