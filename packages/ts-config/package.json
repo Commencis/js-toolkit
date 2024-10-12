@@ -4,13 +4,25 @@
   "description": "Commencis TypeScript Config",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
-  "exports": {
-    ".": "./src/tsconfig.base.json",
-    "./base": "./src/tsconfig.base.json"
+  "homepage": "https://github.com/Commencis/js-toolkit/tree/main/packages/ts-config#readme",
+  "bugs": {
+    "url": "https://github.com/Commencis/js-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commencis/js-toolkit.git",
+    "directory": "packages/ts-config"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "*.md",
     "LICENSE",
     "src"
-  ]
+  ],
+  "exports": {
+    ".": "./src/tsconfig.base.json",
+    "./base": "./src/tsconfig.base.json"
+  }
 }
