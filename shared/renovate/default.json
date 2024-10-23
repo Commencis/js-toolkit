@@ -10,6 +10,5 @@
   ],
   "timezone": "Europe/Istanbul",
   "schedule": ["after 7am and before 9am"],
-  "baseBranches": ["main"],
-  "reviewers": ["ymehmetcan", "serhatyuna", "unmuslu"]
+  "baseBranches": ["main"]
 }
