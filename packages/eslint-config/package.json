@@ -72,7 +72,7 @@
     "eslint-plugin-react": "7.37.1",
     "eslint-plugin-react-hooks": "5.0.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-vue": "9.29.1",
+    "eslint-plugin-vue": "9.30.0",
     "globals": "15.11.0",
     "typescript-eslint": "8.11.0"
   },
