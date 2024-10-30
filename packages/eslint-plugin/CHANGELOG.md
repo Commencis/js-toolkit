@@ -1,5 +1,12 @@
 # @commencis/eslint-plugin
 
+## 1.1.2
+
+### Patch Changes
+
+- update dependency: @typescript-eslint/utils@8.12.2 ([#109](https://github.com/Commencis/js-toolkit/pull/109))
+  update dependency: typescript-eslint@8.12.2
+
 ## 1.1.1
 
 ### Patch Changes
