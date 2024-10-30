@@ -1,5 +1,20 @@
 # @commencis/eslint-config
 
+## 1.2.1
+
+### Patch Changes
+
+- update dependency: eslint-plugin-jsx-a11y@6.10.2 ([#107](https://github.com/Commencis/js-toolkit/pull/107))
+
+- update dependency: eslint-plugin-react@7.37.2 ([#98](https://github.com/Commencis/js-toolkit/pull/98))
+
+- update dependency: eslint-plugin-vue@9.30.0 ([#108](https://github.com/Commencis/js-toolkit/pull/108))
+
+- update dependency: @next/eslint-plugin-next@15.0.2 ([#99](https://github.com/Commencis/js-toolkit/pull/99))
+
+- update dependency: @typescript-eslint/utils@8.12.2 ([#109](https://github.com/Commencis/js-toolkit/pull/109))
+  update dependency: typescript-eslint@8.12.2
+
 ## 1.2.0
 
 ### Minor Changes
