@@ -5,20 +5,22 @@ export const importSortRules: Linter.RulesRecord = {
     'error',
     {
       groups: [
-        // External package imports
-        ['^\\w', '^@\\w'],
-        // @commencis package imports
-        ['^@commencis'],
-        // Config, util imports
-        ['(@/config|@/util)'],
-        // Type imports
-        ['@/type'],
-        // Absolute imports
-        ['^@/'],
-        // Relative imports
-        ['^\\.\\./', '^\\./'],
-        // Style imports
+        // Side effect imports.
+        ['^\\u0000'],
+        // Main framework & external package imports
+        ['^react', '^vue', '^@angular(/.*|$)', '^next', '^nuxt', '^@?\\w'],
+        // Internal imports
+        ['^(asset(s?)|constant(s?)|helper(s?)|util(s?)|i18n)(/.*|$)'],
+        // Components
+        ['((.*)/)?components/'],
+        // Parent imports. Put `..` last.
+        ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+        // Other relative imports. Put same-folder imports and `.` last.
+        ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+        // Styles
         ['^.+\\.s?css$'],
+        // Images
+        ['public/static/images', '^.+\\.svg$', '^.+\\.png$'],
       ],
     },
   ],
