@@ -7,20 +7,25 @@ export const importSortRules: Linter.RulesRecord = {
       groups: [
         // Side effect imports.
         ['^\\u0000'],
-        // Main framework & external package imports
-        ['^react', '^vue', '^@angular(/.*|$)', '^next', '^nuxt', '^@?\\w'],
+        // Main frameworks & libraries
+        ['^react', '^next', '^vue', '^nuxt', '^@angular(/.*|$)', '^expo'],
+        // External packages
+        ['^@commencis', '^@?\\w'],
+        ['^@/'],
         // Internal imports
-        ['^(asset(s?)|constant(s?)|helper(s?)|util(s?)|i18n)(/.*|$)'],
-        // Components
-        ['((.*)/)?components/'],
+        [
+          '^@?/?(configs(s?)|types(s?)|constants(s?)|helpers(s?)|utils(s?)|lib(s?)|providers(s?))(/.*|$)',
+        ],
+        // Project folders
+        ['((.*)/)?(layouts|pages|modules|features|components)/'],
         // Parent imports. Put `..` last.
         ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
         // Other relative imports. Put same-folder imports and `.` last.
         ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
         // Styles
-        ['^.+\\.s?css$'],
+        ['^.+\\.(s?css|(style(s)?)\\..+)$'],
         // Images
-        ['public/static/images', '^.+\\.svg$', '^.+\\.png$'],
+        ['(asset(s?)|public|static|images)(/.*|$)', '^.+\\.svg$', '^.+\\.png$'],
       ],
     },
   ],
