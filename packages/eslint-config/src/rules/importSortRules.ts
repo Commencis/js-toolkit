@@ -5,8 +5,9 @@ export const importSortRules: Linter.RulesRecord = {
     'error',
     {
       groups: [
-        // Side effect imports.
+        // Side effects
         ['^\\u0000'],
+
         // Main frameworks & libraries
         [
           '^react',
@@ -17,22 +18,31 @@ export const importSortRules: Linter.RulesRecord = {
           '^expo',
           '^node',
         ],
+
         // External packages
         ['^@commencis', '^@?\\w'],
-        ['^@/'],
-        // Internal imports
+
+        // Internal common directories
         [
           '^@?/?(configs(s?)|types(s?)|constants(s?)|helpers(s?)|utils(s?)|lib(s?)|providers(s?))(/.*|$)',
         ],
-        // Project folders
+
+        // Internal directories
+        ['^@/'],
+
+        // Components
         ['((.*)/)?(layouts|pages|modules|features|components)/'],
-        // Parent imports. Put `..` last.
+
+        // Relative parent imports: '../' comes last
         ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
-        // Other relative imports. Put same-folder imports and `.` last.
+
+        // Relative imports: './' comes last
         ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+
         // Styles
         ['^.+\\.(s?css|(style(s)?)\\..+)$'],
-        // Images
+
+        // Static assets
         ['(asset(s?)|public|static|images)(/.*|$)', '^.+\\.svg$', '^.+\\.png$'],
       ],
     },
