@@ -8,7 +8,15 @@ export const importSortRules: Linter.RulesRecord = {
         // Side effect imports.
         ['^\\u0000'],
         // Main frameworks & libraries
-        ['^react', '^next', '^vue', '^nuxt', '^@angular(/.*|$)', '^expo'],
+        [
+          '^react',
+          '^next',
+          '^vue',
+          '^nuxt',
+          '^@angular(/.*|$)',
+          '^expo',
+          '^node',
+        ],
         // External packages
         ['^@commencis', '^@?\\w'],
         ['^@/'],
