@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.4.0
+
+### Minor Changes
+
+- re-arrange import groups ([#118](https://github.com/Commencis/js-toolkit/pull/118))
+
 ## 1.3.0
 
 ### Minor Changes
