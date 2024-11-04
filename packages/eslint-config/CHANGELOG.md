@@ -1,5 +1,15 @@
 # @commencis/eslint-config
 
+## 1.3.0
+
+### Minor Changes
+
+- improve existing eslint sorting rules and add new ones ([#113](https://github.com/Commencis/js-toolkit/pull/113))
+
+### Patch Changes
+
+- update dependency: eslint@9.14.0 @eslint/js@9.14.0 ([#115](https://github.com/Commencis/js-toolkit/pull/115))
+
 ## 1.2.1
 
 ### Patch Changes
