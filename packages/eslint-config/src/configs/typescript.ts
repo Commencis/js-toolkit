@@ -1,7 +1,8 @@
 import tseslint from 'typescript-eslint';
 
+import { type FlatConfigArray } from '@/types';
+
 import { typescriptRules } from '@/rules';
-import type { FlatConfigArray } from '@/types';
 
 export default [
   ...tseslint.configs.strict,

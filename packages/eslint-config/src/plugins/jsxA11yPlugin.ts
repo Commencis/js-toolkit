@@ -1,7 +1,7 @@
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 
 import { JSX_TSX_FILE_PATTERNS } from '@/constants';
-import { FlatConfig } from '@/types';
+import { type FlatConfig } from '@/types';
 
 export const jsxA11yPluginConfig: FlatConfig = {
   name: 'commencis/plugin:jsx-a11y',

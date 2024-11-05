@@ -1,6 +1,7 @@
 import baseConfig from '@/configs/base';
 import prettierConfig from '@/configs/prettier';
 import typescriptConfig from '@/configs/typescript';
+import { type FlatConfigArray } from '@/types';
 
 import {
   jsxA11yPluginConfig,
@@ -8,7 +9,6 @@ import {
   reactHooksPluginConfig,
   reactPluginConfig,
 } from '@/plugins';
-import type { FlatConfigArray } from '@/types';
 
 export default [
   ...baseConfig,
