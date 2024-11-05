@@ -1,7 +1,7 @@
-import globals from 'globals';
 import eslint from '@eslint/js';
+import globals from 'globals';
 
-import type { FlatConfigArray } from '@/types';
+import { type FlatConfigArray } from '@/types';
 
 import { importSortPluginConfig } from '@/plugins';
 

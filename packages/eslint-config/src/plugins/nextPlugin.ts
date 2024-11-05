@@ -1,8 +1,8 @@
 import nextPlugin from '@next/eslint-plugin-next';
 
-import { FlatConfig } from '@/types';
-
 import { JSX_TSX_FILE_PATTERNS } from '@/constants';
+import { type FlatConfig } from '@/types';
+
 import { nextPluginRules } from '@/rules';
 
 export const nextPluginConfig: FlatConfig = {

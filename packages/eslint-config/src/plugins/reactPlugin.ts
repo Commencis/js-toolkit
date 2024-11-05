@@ -1,8 +1,8 @@
 import reactPlugin from 'eslint-plugin-react';
 
-import { FlatConfig } from '@/types';
-
 import { JSX_TSX_FILE_PATTERNS } from '@/constants';
+import { type FlatConfig } from '@/types';
+
 import { reactRules } from '@/rules';
 
 export const reactPluginConfig: FlatConfig = {
