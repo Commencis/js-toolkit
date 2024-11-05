@@ -1,9 +1,10 @@
 import type { Linter } from '@typescript-eslint/utils/ts-eslint';
 
+import { all, recommended } from '@/configs';
+
 import rules from '@/rules';
 
 import packageJson from '../package.json';
-import { all, recommended } from './configs';
 
 const plugin = {
   meta: {

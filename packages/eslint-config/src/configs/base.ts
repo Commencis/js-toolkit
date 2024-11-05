@@ -1,9 +1,8 @@
-import globals from 'globals';
 import eslint from '@eslint/js';
-
-import type { FlatConfigArray } from '@/types';
+import globals from 'globals';
 
 import { importSortPluginConfig } from '@/plugins';
+import type { FlatConfigArray } from '@/types';
 
 export default [
   eslint.configs.recommended,

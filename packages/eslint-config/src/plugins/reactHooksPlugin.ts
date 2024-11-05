@@ -1,8 +1,8 @@
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
+import { JSX_TSX_FILE_PATTERNS } from '@/constants';
 import { FlatConfig } from '@/types';
 
-import { JSX_TSX_FILE_PATTERNS } from '@/constants';
 import { reactHooksRules } from '@/rules';
 
 export const reactHooksPluginConfig: FlatConfig = {

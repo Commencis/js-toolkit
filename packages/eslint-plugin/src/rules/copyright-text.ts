@@ -1,8 +1,7 @@
 import { TSESTree } from '@typescript-eslint/utils';
 
-import { createRule, getCopyrightText } from '@/utils';
-
 import { DEFAULT_START_YEAR } from '@/constants';
+import { createRule, getCopyrightText } from '@/utils';
 
 type RuleOptions = {
   startYear?: number;
