@@ -23,15 +23,13 @@ export const importSortRules: Linter.RulesRecord = {
         ['^@commencis', '^@?\\w'],
 
         // Internal common directories
-        [
-          '^@?/?(configs(s?)|types(s?)|constants(s?)|helpers(s?)|utils(s?)|lib(s?)|providers(s?))(/.*|$)',
-        ],
+        ['^@?/?(config|types|interfaces|constants|helpers|utils|lib)(/.*|$)'],
 
         // Internal directories
         ['^@/'],
 
         // Components
-        ['((.*)/)?(layouts|pages|modules|features|components)/'],
+        ['((.*)/)?(providers|layouts|pages|modules|features|components)/'],
 
         // Relative parent imports: '../' comes last
         ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
