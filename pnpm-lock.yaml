@@ -159,8 +159,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(stylelint@16.10.0(typescript@5.6.3))
       postcss-styled-syntax:
-        specifier: 0.6.4
-        version: 0.6.4(postcss@8.4.47)
+        specifier: 0.7.0
+        version: 0.7.0(postcss@8.4.47)
       stylelint:
         specifier: '>= 16.8'
         version: 16.10.0(typescript@5.6.3)
@@ -2461,8 +2461,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.20
 
-  postcss-styled-syntax@0.6.4:
-    resolution: {integrity: sha512-uWiLn+9rKgIghUYmTHvXMR6MnyPULMe9Gv3bV537Fg4FH6CA6cn21WMjKss2Qb98LUhT847tKfnRGG3FhSOgUQ==}
+  postcss-styled-syntax@0.7.0:
+    resolution: {integrity: sha512-OeStzPkHJ1/WDGRKm/JuVK8UdJbjt3U7AFC+zUc9omJ79SaXSxWoy+PXxJz7t8vOO8HcUgCLndNEQfLvZ74TuQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
       postcss: ^8.4.21
@@ -5529,7 +5529,7 @@ snapshots:
     dependencies:
       postcss: 8.4.47
 
-  postcss-styled-syntax@0.6.4(postcss@8.4.47):
+  postcss-styled-syntax@0.7.0(postcss@8.4.47):
     dependencies:
       postcss: 8.4.47
       typescript: 5.6.3
