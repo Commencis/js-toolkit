@@ -1,5 +1,20 @@
 # @commencis/eslint-config
 
+## 1.4.1
+
+### Patch Changes
+
+- update dependency: globals@15.12.0 ([#121](https://github.com/Commencis/js-toolkit/pull/121))
+
+- update dependency: @commencis/eslint-config@1.4.0 ([#120](https://github.com/Commencis/js-toolkit/pull/120))
+
+- fix: imports, grouping and lint issues ([#120](https://github.com/Commencis/js-toolkit/pull/120))
+
+- update dependency: typescript-eslint@8.13.0 ([#124](https://github.com/Commencis/js-toolkit/pull/124))
+
+- update import sort of common directories: ([#125](https://github.com/Commencis/js-toolkit/pull/125))
+  `config`, `types`, `interfaces`, `constants`, `helpers`, `utils`, `lib`
+
 ## 1.4.0
 
 ### Minor Changes
