@@ -1,5 +1,13 @@
 # @commencis/eslint-config
 
+## 1.4.2
+
+### Patch Changes
+
+- improve import sorts for common directories ([#126](https://github.com/Commencis/js-toolkit/pull/126))
+
+- update dependency: @next/eslint-plugin-next@15.0.3 ([#129](https://github.com/Commencis/js-toolkit/pull/129))
+
 ## 1.4.1
 
 ### Patch Changes
