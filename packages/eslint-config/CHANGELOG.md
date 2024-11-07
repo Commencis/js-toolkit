@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- improve import sorts for common directories ([#127](https://github.com/Commencis/js-toolkit/pull/127))
+- improve import sorts for common directories ([#126](https://github.com/Commencis/js-toolkit/pull/126))
 
 - update dependency: @next/eslint-plugin-next@15.0.3 ([#129](https://github.com/Commencis/js-toolkit/pull/129))
 
