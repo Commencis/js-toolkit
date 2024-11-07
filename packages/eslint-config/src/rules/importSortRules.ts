@@ -10,7 +10,7 @@ export const importSortRules: Linter.RulesRecord = {
 
         // Main frameworks & libraries
         [
-          '^react',
+          '^(react(-native|-dom)?(/.*)?)$',
           '^next',
           '^vue',
           '^nuxt',
@@ -29,7 +29,7 @@ export const importSortRules: Linter.RulesRecord = {
         ['^@/'],
 
         // Components
-        ['((.*)/)?(providers|layouts|pages|modules|features|components)/'],
+        ['((.*)/)?(providers|layouts|pages|modules|features|components)/?'],
 
         // Relative parent imports: '../' comes last
         ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
