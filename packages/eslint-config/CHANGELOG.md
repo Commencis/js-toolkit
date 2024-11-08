@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.4.3
+
+### Patch Changes
+
+- update `@typescript-eslint/no-unused-vars` ignore patterns ([#131](https://github.com/Commencis/js-toolkit/pull/131))
+
 ## 1.4.2
 
 ### Patch Changes
