@@ -14,8 +14,8 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "Node.js"
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
