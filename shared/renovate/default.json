@@ -10,5 +10,12 @@
   ],
   "timezone": "Europe/Istanbul",
   "schedule": ["after 7am and before 9am"],
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Node.js"
+    }
+  ]
 }
