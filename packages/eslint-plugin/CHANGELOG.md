@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 1.1.4
+
+### Patch Changes
+
+- comply new rules & formatting ([#130](https://github.com/Commencis/js-toolkit/pull/130))
+
 ## 1.1.3
 
 ### Patch Changes
