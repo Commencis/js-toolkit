@@ -15,8 +15,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@commencis/eslint-config':
-        specifier: 1.4.3
-        version: 1.4.3(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)
+        specifier: 1.4.4
+        version: 1.4.4(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)
       '@commencis/prettier-config':
         specifier: 1.1.0
         version: 1.1.0
@@ -287,8 +287,8 @@ packages:
   '@commencis/commitlint-config@1.1.0':
     resolution: {integrity: sha512-nJdku+Y/dsTMfwoo66gnG3dg60hzMUVcQN50dkA/S4GrIDBq132nk8d/0lpqukm1Wn1swyvhvunYzJhUIBwOzg==}
 
-  '@commencis/eslint-config@1.4.3':
-    resolution: {integrity: sha512-2kWr6zyYqAYwaCEPvpDwbo2akPw35XE0/R+JN+8PXiEXwn2jE1QL036b8J5xuSP9OfqcnRewkTVQiHiqjUZMFA==}
+  '@commencis/eslint-config@1.4.4':
+    resolution: {integrity: sha512-8UYKKnq4mInWGn6KKuok4e9Bp4SnZAGzaAeYlhpX5dhtOoeMxmZtlfdukxZ44UdMy/UTs9K3caUilNpsg16Hmw==}
     peerDependencies:
       eslint: '>= 9.7'
 
@@ -3347,7 +3347,7 @@ snapshots:
     dependencies:
       '@commitlint/config-conventional': 19.5.0
 
-  '@commencis/eslint-config@1.4.3(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)':
+  '@commencis/eslint-config@1.4.4(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)':
     dependencies:
       '@eslint/js': 9.14.0
       '@next/eslint-plugin-next': 15.0.3
