@@ -4,5 +4,5 @@
 
 update dependencies: commitlint
 
-- @commitlint/cli@9.16.0
-- @commitlint/config-conventional@9.16.0
+- @commitlint/cli@19.6.0
+- @commitlint/config-conventional@19.6.0
