@@ -1,5 +1,17 @@
 # @commencis/eslint-config
 
+## 1.5.0
+
+### Minor Changes
+
+- update dependency: typescript-eslint@8.15.0 ([#147](https://github.com/Commencis/js-toolkit/pull/147))
+
+  - also fixes eslint 9.15.0 issues
+
+### Patch Changes
+
+- update dependency: eslint-plugin-vue@9.31.0 ([#140](https://github.com/Commencis/js-toolkit/pull/140))
+
 ## 1.4.4
 
 ### Patch Changes
