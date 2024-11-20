@@ -35,7 +35,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "19.5.0"
+    "@commitlint/config-conventional": "19.6.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
