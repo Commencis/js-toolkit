@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.5.1
+
+### Patch Changes
+
+- update dependency: eslint@9.15.0 ([#141](https://github.com/Commencis/js-toolkit/pull/141))
+
 ## 1.5.0
 
 ### Minor Changes
