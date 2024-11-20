@@ -1,5 +1,13 @@
 # @commencis/eslint-plugin
 
+## 1.2.0
+
+### Minor Changes
+
+- update dependency: typescript-eslint@8.15.0 ([#147](https://github.com/Commencis/js-toolkit/pull/147))
+
+  - also fixes eslint 9.15.0 issues
+
 ## 1.1.4
 
 ### Patch Changes
