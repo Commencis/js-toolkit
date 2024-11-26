@@ -4,13 +4,16 @@
     "config:recommended",
     ":automergeDisabled",
     ":enableVulnerabilityAlerts",
-    ":maintainLockFilesWeekly",
     ":prConcurrentLimit10",
     ":separateMultipleMajorReleases"
   ],
   "timezone": "Europe/Istanbul",
   "schedule": ["after 7am and before 9am"],
   "baseBranches": ["main"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 7am and before 9am on Monday"]
+  },
   "packageRules": [
     {
       "matchPackageNames": ["node"],
