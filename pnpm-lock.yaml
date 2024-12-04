@@ -103,8 +103,8 @@ importers:
         specifier: 9.31.0
         version: 9.31.0(eslint@9.15.0(jiti@1.21.6))
       globals:
-        specifier: 15.12.0
-        version: 15.12.0
+        specifier: 15.13.0
+        version: 15.13.0
       typescript-eslint:
         specifier: 8.15.0
         version: 8.15.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
@@ -1730,6 +1730,10 @@ packages:
 
   globals@15.12.0:
     resolution: {integrity: sha512-1+gLErljJFhbOVyaetcwJiJ4+eLe45S2E7P5UiZ9xGfeq3ATQf5DOv9G7MH3gGbKQLkzmNh2DxfZwLdw+j6oTQ==}
+    engines: {node: '>=18'}
+
+  globals@15.13.0:
+    resolution: {integrity: sha512-49TewVEz0UxZjr1WYYsWpPrhyC/B/pA8Bq0fUmet2n+eR7yn0IvNzNaoBwnK6mdkzcN+se7Ez9zUgULTz2QH4g==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -4869,6 +4873,8 @@ snapshots:
   globals@14.0.0: {}
 
   globals@15.12.0: {}
+
+  globals@15.13.0: {}
 
   globalthis@1.0.4:
     dependencies:
