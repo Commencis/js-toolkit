@@ -73,8 +73,8 @@ importers:
         specifier: 9.16.0
         version: 9.16.0
       '@next/eslint-plugin-next':
-        specifier: 15.0.3
-        version: 15.0.3
+        specifier: 15.1.0
+        version: 15.1.0
       '@typescript-eslint/utils':
         specifier: 8.18.0
         version: 8.18.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
@@ -764,6 +764,9 @@ packages:
 
   '@next/eslint-plugin-next@15.0.3':
     resolution: {integrity: sha512-3Ln/nHq2V+v8uIaxCR6YfYo7ceRgZNXfTd3yW1ukTaFbO+/I8jNakrjYWODvG9BuR2v5kgVtH/C8r0i11quOgw==}
+
+  '@next/eslint-plugin-next@15.1.0':
+    resolution: {integrity: sha512-+jPT0h+nelBT6HC9ZCHGc7DgGVy04cv4shYdAe6tKlEbjQUtwU3LzQhzbDHQyY2m6g39m6B0kOFVuLGBrxxbGg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3791,6 +3794,10 @@ snapshots:
       read-yaml-file: 1.1.0
 
   '@next/eslint-plugin-next@15.0.3':
+    dependencies:
+      fast-glob: 3.3.1
+
+  '@next/eslint-plugin-next@15.1.0':
     dependencies:
       fast-glob: 3.3.1
 
