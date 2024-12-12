@@ -1,5 +1,22 @@
 # @commencis/eslint-config
 
+## 1.5.2
+
+### Patch Changes
+
+- update dependency: eslint@9.16.0 ([#164](https://github.com/Commencis/js-toolkit/pull/164))
+
+- update dependency: @next/eslint-plugin-next@15.1.0 ([#161](https://github.com/Commencis/js-toolkit/pull/161))
+
+- update dependency: eslint-plugin-vue@9.32.0 ([#159](https://github.com/Commencis/js-toolkit/pull/159))
+
+- update dependency: typescript-eslint@8.18.0 ([#165](https://github.com/Commencis/js-toolkit/pull/165))
+
+- update dependency: globals@15.13.0 ([#160](https://github.com/Commencis/js-toolkit/pull/160))
+
+- update dependency: eslint-plugin-react-hooks@5.1.0 ([#162](https://github.com/Commencis/js-toolkit/pull/162))
+  fix: type declarations for eslint-plugin-react
+
 ## 1.5.1
 
 ### Patch Changes
