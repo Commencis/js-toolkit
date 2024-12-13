@@ -1,3 +1,4 @@
+export * from './importPlugin';
 export * from './importSortPlugin';
 export * from './jsxA11yPlugin';
 export * from './nextPlugin';

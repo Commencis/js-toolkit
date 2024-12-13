@@ -3,10 +3,11 @@ import globals from 'globals';
 
 import { type FlatConfigArray } from '@/types';
 
-import { importSortPluginConfig } from '@/plugins';
+import { importPluginConfig, importSortPluginConfig } from '@/plugins';
 
 export default [
   eslint.configs.recommended,
+  importPluginConfig,
   importSortPluginConfig,
   {
     name: 'commencis/base',
