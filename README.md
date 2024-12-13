@@ -16,16 +16,16 @@ The repository is structured as a monorepo, which allows for managing all the pa
 
 ## Package Index
 
-| Package                                                        | NPM                                                                                                                                                | Stability                                             |
-| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [`@commencis/commitlint-config`](./packages/commitlint-config) | [![npm](https://img.shields.io/npm/v/@commencis/commitlint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/commitlint-config) | ![Stable](https://img.shields.io/badge/stable-4C9E4C) |
-| [`@commencis/eslint-config`](./packages/eslint-config)         | [![npm](https://img.shields.io/npm/v/@commencis/eslint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-config)         | ![Stable](https://img.shields.io/badge/stable-4C9E4C) |
-| [`@commencis/eslint-plugin`](./packages/eslint-plugin)         | [![npm](https://img.shields.io/npm/v/@commencis/eslint-plugin?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-plugin)         | ![Stable](https://img.shields.io/badge/stable-4C9E4C) |
-| [`@commencis/stylelint-config`](./packages/stylelint-config)   | [![npm](https://img.shields.io/npm/v/@commencis/stylelint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/stylelint-config)   | ![Stable](https://img.shields.io/badge/stable-4C9E4C) |
-| [`@commencis/prettier-config`](./packages/prettier-config)     | [![npm](https://img.shields.io/npm/v/@commencis/prettier-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/prettier-config)     | ![Stable](https://img.shields.io/badge/stable-4C9E4C) |
-| [`@commencis/ts-config`](./packages/ts-config)                 | [![npm](https://img.shields.io/npm/v/@commencis/ts-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/ts-config)                 | ![Beta](https://img.shields.io/badge/beta-FF9E00)     |
-| `@commencis/lint-staged-config`                                | ![npm](https://img.shields.io/badge/npm----------------grey)                                                                                       | ![WIP](https://img.shields.io/badge/alpha-grey)       |
-| `@commencis/browserslist-config`                               | ![npm](https://img.shields.io/badge/npm----------------grey)                                                                                       | ![WIP](https://img.shields.io/badge/alpha-grey)       |
+| #   | Package                                                        | Version                                                                                                                                                       |
+| --- | :------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🟩  | [`@commencis/commitlint-config`](./packages/commitlint-config) | [![npm](https://img.shields.io/npm/v/@commencis/commitlint-config?style=flat&label=npm&color=300E77)](https://npmjs.com/package/@commencis/commitlint-config) |
+| 🟩  | [`@commencis/eslint-config`](./packages/eslint-config)         | [![npm](https://img.shields.io/npm/v/@commencis/eslint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-config)                    |
+| 🟩  | [`@commencis/eslint-plugin`](./packages/eslint-plugin)         | [![npm](https://img.shields.io/npm/v/@commencis/eslint-plugin?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-plugin)                    |
+| 🟩  | [`@commencis/stylelint-config`](./packages/stylelint-config)   | [![npm](https://img.shields.io/npm/v/@commencis/stylelint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/stylelint-config)              |
+| 🟩  | [`@commencis/prettier-config`](./packages/prettier-config)     | [![npm](https://img.shields.io/npm/v/@commencis/prettier-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/prettier-config)                |
+| 🟨  | [`@commencis/ts-config`](./packages/ts-config)                 | [![npm](https://img.shields.io/npm/v/@commencis/ts-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/ts-config)                            |
+| 🟧  | `@commencis/lint-staged-config`                                | ![npm](https://img.shields.io/badge/npm----------------grey)                                                                                                  |
+| 🟧  | `@commencis/browserslist-config`                               | ![npm](https://img.shields.io/badge/npm----------------grey)                                                                                                  |
 
 ## For Contributors:
 
