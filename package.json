@@ -31,6 +31,7 @@
     "lint:types": "turbo run lint:types",
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
+    "lint:js:inspect": "npx @eslint/config-inspector@latest",
     "lint:format": "prettier . --check",
     "lint:format:fix": "prettier . --write --list-different",
     "lint": "turbo run lint",
