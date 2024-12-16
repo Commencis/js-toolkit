@@ -1,4 +1,1 @@
-export default {
-  '*': 'prettier --write --cache --ignore-unknown',
-  '*.{js,cjs,mjs,ts}': 'eslint --max-warnings 0',
-};
+export { typescriptConfig as default } from '@commencis/lint-staged-config';
