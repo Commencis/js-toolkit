@@ -1,0 +1,41 @@
+{
+  "name": "@commencis/lint-staged-config",
+  "version": "0.0.1",
+  "description": "Commencis Lint-Staged config",
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "type": "module",
+  "homepage": "https://github.com/Commencis/js-toolkit/tree/main/packages/lint-staged-config#readme",
+  "bugs": {
+    "url": "https://github.com/Commencis/js-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commencis/js-toolkit.git",
+    "directory": "packages/lint-staged-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "*.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint:types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@commencis/ts-config": "workspace:*",
+    "tsup": "8.3.5",
+    "typescript": "5.7.2"
+  }
+}

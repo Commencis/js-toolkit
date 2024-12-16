@@ -17,6 +17,9 @@ importers:
       '@commencis/eslint-config':
         specifier: 1.5.1
         version: 1.5.1(@types/eslint@9.6.1)(eslint@9.16.0(jiti@1.21.6))(prettier@3.4.2)(typescript@5.7.2)
+      '@commencis/lint-staged-config':
+        specifier: workspace:*
+        version: link:packages/lint-staged-config
       '@commencis/prettier-config':
         specifier: 1.1.0
         version: 1.1.0
@@ -127,6 +130,18 @@ importers:
       '@typescript-eslint/utils':
         specifier: 8.18.0
         version: 8.18.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+    devDependencies:
+      '@commencis/ts-config':
+        specifier: workspace:*
+        version: link:../ts-config
+      tsup:
+        specifier: 8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
+      typescript:
+        specifier: 5.7.2
+        version: 5.7.2
+
+  packages/lint-staged-config:
     devDependencies:
       '@commencis/ts-config':
         specifier: workspace:*
