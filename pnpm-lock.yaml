@@ -21,8 +21,8 @@ importers:
         specifier: workspace:*
         version: link:packages/lint-staged-config
       '@commencis/prettier-config':
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 1.1.1
+        version: 1.1.1
       '@commitlint/cli':
         specifier: 19.6.1
         version: 19.6.1(@types/node@22.10.2)(typescript@5.7.2)
@@ -307,8 +307,8 @@ packages:
     peerDependencies:
       eslint: '>= 9.7'
 
-  '@commencis/prettier-config@1.1.0':
-    resolution: {integrity: sha512-ikGRDayHM42TBYdDioid26iULp0RYY6ZLAyYrnRg3dE869R+M4BB5zjiwR4X+N8TN1fCODfw83d96GmHIEcH1Q==}
+  '@commencis/prettier-config@1.1.1':
+    resolution: {integrity: sha512-EJDdp8pYFKSbni8HmRM1psxy79lBdwuqm+gd01vFRSQLb6SaebhR6hhAjIDfVEWGrdyuEDtI7Y0MxK5oYKE9ZA==}
 
   '@commitlint/cli@19.6.1':
     resolution: {integrity: sha512-8hcyA6ZoHwWXC76BoC8qVOSr8xHy00LZhZpauiD0iO0VYbVhMnED0da85lTfIULxl7Lj4c6vZgF0Wu/ed1+jlQ==}
@@ -3492,7 +3492,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@commencis/prettier-config@1.1.0': {}
+  '@commencis/prettier-config@1.1.1': {}
 
   '@commitlint/cli@19.6.1(@types/node@22.10.2)(typescript@5.7.2)':
     dependencies:
