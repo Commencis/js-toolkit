@@ -50,7 +50,7 @@
     "@commencis/commitlint-config": "1.1.1",
     "@commencis/eslint-config": "1.5.2",
     "@commencis/lint-staged-config": "workspace:*",
-    "@commencis/prettier-config": "1.1.0",
+    "@commencis/prettier-config": "1.1.1",
     "@commitlint/cli": "19.6.1",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "@vitest/coverage-v8": "2.1.8",
