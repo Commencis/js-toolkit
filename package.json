@@ -46,7 +46,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@changesets/cli": "2.27.10",
+    "@changesets/cli": "2.27.11",
     "@commencis/commitlint-config": "1.1.1",
     "@commencis/eslint-config": "1.5.2",
     "@commencis/lint-staged-config": "workspace:*",
