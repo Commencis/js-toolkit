@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "@eslint/js": "9.17.0",
-    "@next/eslint-plugin-next": "15.1.1",
+    "@next/eslint-plugin-next": "15.1.2",
     "@typescript-eslint/utils": "8.18.2",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
