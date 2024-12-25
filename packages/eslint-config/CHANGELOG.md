@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.5.4
+
+### Patch Changes
+
+- chore(deps): update dependency `eslint-plugin-react` to `v7.37.3` ([#182](https://github.com/Commencis/js-toolkit/pull/182))
+
 ## 1.5.3
 
 ### Patch Changes
