@@ -1,5 +1,19 @@
 # @commencis/eslint-config
 
+## 1.5.3
+
+### Patch Changes
+
+- chore(deps): update typescript-eslint monorepo to v8.18.2 ([#175](https://github.com/Commencis/js-toolkit/pull/175))
+
+- fix(deps): update dependency globals to v15.14.0 ([#179](https://github.com/Commencis/js-toolkit/pull/179))
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.1.2 ([#181](https://github.com/Commencis/js-toolkit/pull/181))
+
+- fix(deps): update dependency @next/eslint-plugin-next to v15.1.1 ([#176](https://github.com/Commencis/js-toolkit/pull/176))
+
+- update dependency: eslint to v9.17.0 ([#172](https://github.com/Commencis/js-toolkit/pull/172))
+
 ## 1.5.2
 
 ### Patch Changes

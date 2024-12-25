@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 1.4.0
+
+### Minor Changes
+
+- feat: update styled-components config to resolve conflicts with stylistic rules ([#183](https://github.com/Commencis/js-toolkit/pull/183))
+
 ## 1.3.0
 
 ### Minor Changes
