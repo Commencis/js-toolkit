@@ -1,15 +1,14 @@
 import { StylelintConfig } from '@/types';
 
-import { styledRules } from '@/rules';
-
-import cssConfig from './css';
+import { cssRules, orderRules, styledRules } from '@/rules';
 
 const styledComponentsConfig: StylelintConfig = {
-  ...cssConfig,
+  extends: ['stylelint-config-standard'],
+  plugins: ['stylelint-order'],
   customSyntax: 'postcss-styled-syntax',
-
   rules: {
-    ...cssConfig.rules,
+    ...cssRules,
+    ...orderRules,
     ...styledRules,
   },
 };

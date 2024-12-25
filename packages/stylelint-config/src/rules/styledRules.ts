@@ -19,6 +19,6 @@ export const styledRules = {
   'no-empty-source': null,
   // Disallow vendor prefixes for values
   'value-no-vendor-prefix': true,
-  //  Disallow vendor prefixes for properties
+  // Disallow vendor prefixes for properties
   'property-no-vendor-prefix': true,
 };
