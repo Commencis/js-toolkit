@@ -1,6 +1,6 @@
 {
   "name": "@commencis/eslint-config",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Commencis ESLint config",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
