@@ -52,10 +52,11 @@ export default createRule<[RuleOptions], MessageIds>({
         const sourceCode = context.sourceCode.getText();
         const firstComment = context.sourceCode.getAllComments()[0];
         const trimmedText = sourceCode.trimStart();
-        const isCopyrightExists = trimmedText.startsWith(expectedCopyrightText);
+        const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
 
-        if (!isCopyrightExists) {
-          const isCommencisCopyright = validateCommencisCopyright(firstComment);
+        if (!isCopyrightValid) {
+          const isCommencisCopyrightExists =
+            validateCommencisCopyright(firstComment);
 
           context.report({
             node,
@@ -63,7 +64,7 @@ export default createRule<[RuleOptions], MessageIds>({
             fix(fixer) {
               const insertText = `${expectedCopyrightText}\n\n`;
 
-              return isCommencisCopyright
+              return isCommencisCopyrightExists
                 ? fixer.replaceText(firstComment, insertText)
                 : fixer.insertTextBeforeRange([0, 0], insertText);
             },
