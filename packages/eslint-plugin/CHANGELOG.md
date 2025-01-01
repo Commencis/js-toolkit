@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 1.3.0
+
+### Minor Changes
+
+- feat: add support for Commencis copyright-text replacement to ESLint fixer ([#193](https://github.com/Commencis/js-toolkit/pull/193))
+
 ## 1.2.3
 
 ### Patch Changes
