@@ -1,7 +1,11 @@
-import { AST_TOKEN_TYPES, TSESTree } from '@typescript-eslint/utils';
+import { TSESTree } from '@typescript-eslint/utils';
 
 import { DEFAULT_START_YEAR } from '@/constants';
-import { createRule, getCopyrightText } from '@/utils';
+import {
+  createRule,
+  getCopyrightText,
+  validateCommencisCopyright,
+} from '@/utils';
 
 type RuleOptions = {
   startYear?: number;
@@ -46,18 +50,12 @@ export default createRule<[RuleOptions], MessageIds>({
     return {
       Program(node: TSESTree.Program): void {
         const sourceCode = context.sourceCode.getText();
-        const comments = context.sourceCode.getAllComments();
+        const firstComment = context.sourceCode.getAllComments()[0];
         const trimmedText = sourceCode.trimStart();
+        const isCopyrightExists = trimmedText.startsWith(expectedCopyrightText);
 
-        const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
-
-        if (!isCopyrightValid) {
-          const firstComment = comments[0];
-          const isCommencisCopyrightTextExists =
-            firstComment &&
-            firstComment.type === AST_TOKEN_TYPES.Block &&
-            firstComment.value.includes('Copyright') &&
-            firstComment.value.includes('Commencis');
+        if (!isCopyrightExists) {
+          const isCommencisCopyright = validateCommencisCopyright(firstComment);
 
           context.report({
             node,
@@ -65,7 +63,7 @@ export default createRule<[RuleOptions], MessageIds>({
             fix(fixer) {
               const insertText = `${expectedCopyrightText}\n\n`;
 
-              return isCommencisCopyrightTextExists
+              return isCommencisCopyright
                 ? fixer.replaceText(firstComment, insertText)
                 : fixer.insertTextBeforeRange([0, 0], insertText);
             },
