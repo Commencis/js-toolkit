@@ -1,7 +1,11 @@
 import { TSESTree } from '@typescript-eslint/utils';
 
 import { DEFAULT_START_YEAR } from '@/constants';
-import { createRule, getCopyrightText } from '@/utils';
+import {
+  createRule,
+  getCopyrightText,
+  validateCommencisCopyright,
+} from '@/utils';
 
 type RuleOptions = {
   startYear?: number;
@@ -19,7 +23,7 @@ export default createRule<[RuleOptions], MessageIds>({
     },
     messages: {
       missingCopyright:
-        'File must start with the required Commencis copyright text.',
+        'File must start with the required Commencis copyright text with correct dates.',
     },
     schema: [
       {
@@ -46,15 +50,23 @@ export default createRule<[RuleOptions], MessageIds>({
     return {
       Program(node: TSESTree.Program): void {
         const sourceCode = context.sourceCode.getText();
+        const firstComment = context.sourceCode.getAllComments()[0];
         const trimmedText = sourceCode.trimStart();
+        const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
 
-        if (!trimmedText.startsWith(expectedCopyrightText)) {
+        if (!isCopyrightValid) {
+          const isCommencisCopyrightExists =
+            validateCommencisCopyright(firstComment);
+
           context.report({
             node,
             messageId: 'missingCopyright',
             fix(fixer) {
               const insertText = `${expectedCopyrightText}\n\n`;
-              return fixer.insertTextBeforeRange([0, 0], insertText);
+
+              return isCommencisCopyrightExists
+                ? fixer.replaceText(firstComment, insertText)
+                : fixer.insertTextBeforeRange([0, 0], insertText);
             },
           });
         }
