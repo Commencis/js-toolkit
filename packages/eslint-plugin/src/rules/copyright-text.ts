@@ -1,4 +1,4 @@
-import { TSESTree } from '@typescript-eslint/utils';
+import { AST_TOKEN_TYPES, TSESTree } from '@typescript-eslint/utils';
 
 import { DEFAULT_START_YEAR } from '@/constants';
 import { createRule, getCopyrightText } from '@/utils';
@@ -19,7 +19,7 @@ export default createRule<[RuleOptions], MessageIds>({
     },
     messages: {
       missingCopyright:
-        'File must start with the required Commencis copyright text.',
+        'File must start with the required Commencis copyright text with correct dates.',
     },
     schema: [
       {
@@ -46,15 +46,28 @@ export default createRule<[RuleOptions], MessageIds>({
     return {
       Program(node: TSESTree.Program): void {
         const sourceCode = context.sourceCode.getText();
+        const comments = context.sourceCode.getAllComments();
         const trimmedText = sourceCode.trimStart();
 
-        if (!trimmedText.startsWith(expectedCopyrightText)) {
+        const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
+
+        if (!isCopyrightValid) {
+          const firstComment = comments[0];
+          const isCommencisCopyrightTextExists =
+            firstComment &&
+            firstComment.type === AST_TOKEN_TYPES.Block &&
+            firstComment.value.includes('Copyright') &&
+            firstComment.value.includes('Commencis');
+
           context.report({
             node,
             messageId: 'missingCopyright',
             fix(fixer) {
               const insertText = `${expectedCopyrightText}\n\n`;
-              return fixer.insertTextBeforeRange([0, 0], insertText);
+
+              return isCommencisCopyrightTextExists
+                ? fixer.replaceText(firstComment, insertText)
+                : fixer.insertTextBeforeRange([0, 0], insertText);
             },
           });
         }
