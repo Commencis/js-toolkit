@@ -34,7 +34,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "8.18.2"
+    "@typescript-eslint/utils": "8.19.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
