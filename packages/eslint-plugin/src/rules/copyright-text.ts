@@ -55,9 +55,9 @@ export default createRule<[RuleOptions], MessageIds>({
         const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
 
         if (!isCopyrightValid) {
-          const isCommencisCopyrightExists = isHtml
-            ? validateCommencisCopyright(trimmedText, true)
-            : validateCommencisCopyright(firstComment);
+          const isCommencisCopyrightExists = validateCommencisCopyright(
+            isHtml ? trimmedText : firstComment
+          );
 
           context.report({
             node,
