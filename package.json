@@ -48,7 +48,7 @@
   "devDependencies": {
     "@changesets/cli": "2.27.11",
     "@commencis/commitlint-config": "1.1.1",
-    "@commencis/eslint-config": "1.5.4",
+    "@commencis/eslint-config": "1.5.5",
     "@commencis/lint-staged-config": "workspace:*",
     "@commencis/prettier-config": "1.1.1",
     "@commitlint/cli": "19.6.1",
