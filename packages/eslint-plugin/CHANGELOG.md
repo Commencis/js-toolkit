@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 1.3.1
+
+### Patch Changes
+
+- fix: add vue support for copyright-text replacement ([#196](https://github.com/Commencis/js-toolkit/pull/196))
+
 ## 1.3.0
 
 ### Minor Changes
