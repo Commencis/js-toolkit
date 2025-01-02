@@ -55,8 +55,9 @@ export default createRule<[RuleOptions], MessageIds>({
         const isCopyrightValid = trimmedText.startsWith(expectedCopyrightText);
 
         if (!isCopyrightValid) {
-          const isCommencisCopyrightExists =
-            validateCommencisCopyright(firstComment);
+          const isCommencisCopyrightExists = validateCommencisCopyright(
+            isHtml ? trimmedText : firstComment
+          );
 
           context.report({
             node,
@@ -65,7 +66,9 @@ export default createRule<[RuleOptions], MessageIds>({
               const insertText = `${expectedCopyrightText}\n\n`;
 
               return isCommencisCopyrightExists
-                ? fixer.replaceText(firstComment, insertText)
+                ? isHtml
+                  ? fixer.replaceTextRange([0, insertText.length], insertText)
+                  : fixer.replaceText(firstComment, insertText)
                 : fixer.insertTextBeforeRange([0, 0], insertText);
             },
           });
