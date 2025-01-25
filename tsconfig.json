@@ -1,0 +1,4 @@
+{
+  "extends": "@commencis/ts-config",
+  "include": ["vitest.config.ts", "vitest.workspace.ts"]
+}

@@ -48,7 +48,7 @@
     "stylelint-order": "6.0.4"
   },
   "devDependencies": {
-    "@commencis/ts-config": "workspace:*",
+    "@commencis/ts-config": "0.0.2",
     "tsup": "8.3.5",
     "typescript": "5.7.3"
   },
