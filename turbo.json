@@ -11,6 +11,9 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
+    "//#lint:types:root": {
+      "dependsOn": []
+    },
     "//#lint:js": {
       "dependsOn": []
     },
@@ -24,16 +27,16 @@
       "dependsOn": []
     },
     "lint:types": {
-      "dependsOn": ["transit"]
+      "dependsOn": ["//#lint:types:root", "transit"]
     },
     "lint": {
-      "dependsOn": ["^lint:types", "//#lint:js", "//#lint:format"]
+      "dependsOn": ["lint:types", "//#lint:js", "//#lint:format"]
     },
     "lint:fix": {
       "dependsOn": ["//#lint:js:fix", "//#lint:format:fix"]
     },
     "test": {
-      "dependsOn": []
+      "dependsOn": ["transit"]
     }
   }
 }
