@@ -39,6 +39,6 @@
   "devDependencies": {
     "@commencis/ts-config": "workspace:*",
     "tsup": "8.3.5",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   }
 }
