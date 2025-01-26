@@ -5,21 +5,21 @@ import { type FlatConfig } from '@/types';
 
 import { reactRules } from '@/rules';
 
-const reactPluginFlatConfig = reactPlugin.configs.flat as Record<
-  string,
-  reactPlugin.ReactFlatConfig
->;
+const { recommended: recommendedConfig, 'jsx-runtime': jsxRuntimeConfig } =
+  reactPlugin.configs.flat;
 
 export const reactPluginConfig: FlatConfig = {
   name: 'commencis/plugin:react',
   files: JSX_TSX_FILE_PATTERNS,
-  languageOptions: { ...reactPluginFlatConfig.recommended.languageOptions },
+  languageOptions: {
+    ...recommendedConfig.languageOptions,
+  },
   plugins: {
     react: reactPlugin,
   },
   rules: {
-    ...reactPluginFlatConfig.recommended.rules,
-    ...reactPluginFlatConfig['jsx-runtime'].rules,
+    ...recommendedConfig.rules,
+    ...jsxRuntimeConfig.rules,
     ...reactRules,
   },
   settings: {
