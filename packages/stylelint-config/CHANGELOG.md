@@ -1,5 +1,15 @@
 # @commencis/stylelint-config
 
+## 2.0.0
+
+### Major Changes
+
+- chore: peerDependency `stylelint` now requires `>=16.13` ([#205](https://github.com/Commencis/js-toolkit/pull/205))
+
+### Patch Changes
+
+- chore(deps): update dependency postcss-styled-syntax to v0.7.1 ([#208](https://github.com/Commencis/js-toolkit/pull/208))
+
 ## 1.4.0
 
 ### Minor Changes
