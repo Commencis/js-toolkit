@@ -55,13 +55,13 @@
     "@commencis/ts-config": "0.0.2",
     "@commitlint/cli": "19.7.1",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
-    "@vitest/coverage-v8": "3.0.4",
+    "@vitest/coverage-v8": "3.0.5",
     "eslint": "9.19.0",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "prettier": "3.4.2",
     "turbo": "2.4.0",
     "typescript": "5.7.3",
-    "vitest": "3.0.4"
+    "vitest": "3.0.5"
   }
 }
