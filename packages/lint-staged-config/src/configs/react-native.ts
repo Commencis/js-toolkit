@@ -1,5 +1,7 @@
+import { Configuration } from 'lint-staged';
+
 import { typescriptConfig } from './typescript';
 
-export const reactNativeConfig = {
+export const reactNativeConfig: Configuration = {
   ...typescriptConfig,
 };

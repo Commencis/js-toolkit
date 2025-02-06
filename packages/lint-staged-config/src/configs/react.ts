@@ -1,9 +1,11 @@
+import { Configuration } from 'lint-staged';
+
 import { SCSS } from '@/constants';
 import { STYLELINT } from '@/helpers';
 
 import { typescriptConfig } from './typescript';
 
-export const reactConfig = {
+export const reactConfig: Configuration = {
   ...typescriptConfig,
   [SCSS]: [STYLELINT],
 };
