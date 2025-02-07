@@ -1,6 +1,6 @@
 {
   "name": "@commencis/lint-staged-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Commencis Lint-Staged config",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
