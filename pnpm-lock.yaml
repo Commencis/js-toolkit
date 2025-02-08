@@ -18,8 +18,8 @@ importers:
         specifier: 1.5.7
         version: 1.5.7(@types/eslint@9.6.1)(eslint@9.20.0(jiti@2.4.2))(prettier@3.4.2)(typescript@5.7.3)
       '@commencis/lint-staged-config':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.1.0
+        version: 0.1.0
       '@commencis/prettier-config':
         specifier: 1.1.1
         version: 1.1.1
@@ -314,8 +314,8 @@ packages:
     peerDependencies:
       eslint: '>= 9.7'
 
-  '@commencis/lint-staged-config@0.0.1':
-    resolution: {integrity: sha512-dMqmd+5rPRxmbfvZ0I636QdS/IP9g43OFMSmZpLYXEsL8MNNr3IhihmVw1zGbkbr7fHdm8VZUE58Z0yAbcKpiQ==}
+  '@commencis/lint-staged-config@0.1.0':
+    resolution: {integrity: sha512-/6lY4/OAzf+e81QezWCZBlqiAT+YFiUCERRjKlWFW2aTUc4v4fD04XTJD4ZDEk6WuOB3vifx0HG+RXVaBJ5KHw==}
 
   '@commencis/prettier-config@1.1.1':
     resolution: {integrity: sha512-EJDdp8pYFKSbni8HmRM1psxy79lBdwuqm+gd01vFRSQLb6SaebhR6hhAjIDfVEWGrdyuEDtI7Y0MxK5oYKE9ZA==}
@@ -3344,7 +3344,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@commencis/lint-staged-config@0.0.1': {}
+  '@commencis/lint-staged-config@0.1.0': {}
 
   '@commencis/prettier-config@1.1.1': {}
 
