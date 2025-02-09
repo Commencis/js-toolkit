@@ -1,6 +1,6 @@
-import { Options } from 'prettier';
+import type { Config } from 'prettier';
 
-const prettierConfig: Options = {
+const prettierConfig: Config = {
   printWidth: 80,
   tabWidth: 2,
   semi: true,
