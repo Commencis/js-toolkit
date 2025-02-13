@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.5.9
+
+### Patch Changes
+
+- chore(deps): update dependency eslint to v9.20.1 ([#235](https://github.com/Commencis/js-toolkit/pull/235))
+
 ## 1.5.8
 
 ### Patch Changes
