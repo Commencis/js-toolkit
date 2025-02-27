@@ -78,7 +78,6 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "0.0.2",
-    "@types/eslint__js": "8.42.3",
     "eslint": "9.21.0",
     "tsup": "8.3.6",
     "typescript": "5.7.3"
