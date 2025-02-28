@@ -1,5 +1,25 @@
 # @commencis/eslint-config
 
+## 1.5.9
+
+### Patch Changes
+
+- chore(deps): update dependency globals to v16 ([#252](https://github.com/Commencis/js-toolkit/pull/252))
+
+- chore(deps): update typescript-eslint monorepo to v8.25.0 ([#243](https://github.com/Commencis/js-toolkit/pull/243))
+
+- chore(deps): update dependency globals to v15.15.0 ([#241](https://github.com/Commencis/js-toolkit/pull/241))
+
+- chore(deps): update dependency eslint to v9.21.0 ([#246](https://github.com/Commencis/js-toolkit/pull/246))
+
+- chore(deps): update dependency eslint-plugin-react-hooks to v5.2.0 ([#251](https://github.com/Commencis/js-toolkit/pull/251))
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.2.0 ([#239](https://github.com/Commencis/js-toolkit/pull/239))
+
+- chore(deps): update dependency eslint-config-prettier to v10.0.2 ([#249](https://github.com/Commencis/js-toolkit/pull/249))
+
+- chore(deps): update dependency eslint to v9.20.1 ([#235](https://github.com/Commencis/js-toolkit/pull/235))
+
 ## 1.5.8
 
 ### Patch Changes
