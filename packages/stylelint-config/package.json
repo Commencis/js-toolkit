@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "0.0.2",
-    "tsup": "8.3.6",
+    "tsup": "8.4.0",
     "typescript": "5.7.3"
   },
   "peerDependencies": {
