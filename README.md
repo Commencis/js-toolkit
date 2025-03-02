@@ -23,8 +23,8 @@ The repository is structured as a monorepo, which allows for managing all the pa
 | 🟩  | [`@commencis/eslint-plugin`](./packages/eslint-plugin)           | [![npm](https://img.shields.io/npm/v/@commencis/eslint-plugin?label=npm&color=300E77)](https://npmjs.com/package/@commencis/eslint-plugin)                    |
 | 🟩  | [`@commencis/stylelint-config`](./packages/stylelint-config)     | [![npm](https://img.shields.io/npm/v/@commencis/stylelint-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/stylelint-config)              |
 | 🟩  | [`@commencis/prettier-config`](./packages/prettier-config)       | [![npm](https://img.shields.io/npm/v/@commencis/prettier-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/prettier-config)                |
+| 🟩  | [`@commencis/lint-staged-config`](./packages/lint-staged-config) | [![npm](https://img.shields.io/npm/v/@commencis/lint-staged-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/lint-staged-config)          |
 | 🟨  | [`@commencis/ts-config`](./packages/ts-config)                   | [![npm](https://img.shields.io/npm/v/@commencis/ts-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/ts-config)                            |
-| 🟨  | [`@commencis/lint-staged-config`](./packages/lint-staged-config) | [![npm](https://img.shields.io/npm/v/@commencis/lint-staged-config?label=npm&color=300E77)](https://npmjs.com/package/@commencis/lint-staged-config)          |
 | 🟧  | `@commencis/browserslist-config`                                 | ![npm](https://img.shields.io/badge/npm----------------grey)                                                                                                  |
 
 ## For Contributors:
@@ -77,4 +77,4 @@ We welcome contributions to improve this project. Feel free to open issues or pu
 
 This project is licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) - see the [LICENSE](./LICENSE) file for details.
 
-© [Commencis](https://www.commencis.com/), 2024. All rights reserved.
+© [Commencis](https://www.commencis.com/), 2025. All rights reserved.
