@@ -16,13 +16,13 @@ importers:
         version: 1.1.2
       '@commencis/eslint-config':
         specifier: 1.5.9
-        version: 1.5.9(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)(typescript@5.8.2)
+        version: 1.5.9(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3)(typescript@5.8.2)
       '@commencis/lint-staged-config':
         specifier: 0.1.0
         version: 0.1.0
       '@commencis/prettier-config':
         specifier: 2.0.0
-        version: 2.0.0(prettier@3.5.2)
+        version: 2.0.0(prettier@3.5.3)
       '@commencis/ts-config':
         specifier: 0.0.2
         version: 0.0.2
@@ -45,8 +45,8 @@ importers:
         specifier: 15.4.3
         version: 15.4.3
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       turbo:
         specifier: 2.4.4
         version: 2.4.4
@@ -95,7 +95,7 @@ importers:
         version: 6.10.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-prettier:
         specifier: 5.2.3
-        version: 5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
+        version: 5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3)
       eslint-plugin-react:
         specifier: 7.37.4
         version: 7.37.4(eslint@9.21.0(jiti@2.4.2))
@@ -162,8 +162,8 @@ importers:
         specifier: 0.0.2
         version: 0.0.2
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       tsup:
         specifier: 8.4.0
         version: 8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.2)(yaml@2.7.0)
@@ -2471,8 +2471,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.5.2:
-    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3367,7 +3367,7 @@ snapshots:
     dependencies:
       '@commitlint/config-conventional': 19.7.1
 
-  '@commencis/eslint-config@1.5.9(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)(typescript@5.8.2)':
+  '@commencis/eslint-config@1.5.9(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3)(typescript@5.8.2)':
     dependencies:
       '@eslint/js': 9.21.0
       '@next/eslint-plugin-next': 15.2.0
@@ -3375,7 +3375,7 @@ snapshots:
       eslint: 9.21.0(jiti@2.4.2)
       eslint-config-prettier: 10.0.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.21.0(jiti@2.4.2))
-      eslint-plugin-prettier: 5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
+      eslint-plugin-prettier: 5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3)
       eslint-plugin-react: 7.37.4(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-react-hooks: 5.2.0(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-simple-import-sort: 12.1.1(eslint@9.21.0(jiti@2.4.2))
@@ -3390,9 +3390,9 @@ snapshots:
 
   '@commencis/lint-staged-config@0.1.0': {}
 
-  '@commencis/prettier-config@2.0.0(prettier@3.5.2)':
+  '@commencis/prettier-config@2.0.0(prettier@3.5.3)':
     dependencies:
-      prettier: 3.5.2
+      prettier: 3.5.3
 
   '@commencis/ts-config@0.0.2': {}
 
@@ -4591,10 +4591,10 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2):
+  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.3):
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
-      prettier: 3.5.2
+      prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.2
     optionalDependencies:
@@ -5641,7 +5641,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.5.2: {}
+  prettier@3.5.3: {}
 
   prop-types@15.8.1:
     dependencies:
