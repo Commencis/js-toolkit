@@ -1,5 +1,12 @@
 # @commencis/eslint-config
 
+## 1.6.0
+
+### Minor Changes
+
+- chore(deps): update typescript-eslint monorepo to v8.26.0 ([#256](https://github.com/Commencis/js-toolkit/pull/256))
+  feat: add support for typescript 5.8
+
 ## 1.5.9
 
 ### Patch Changes
