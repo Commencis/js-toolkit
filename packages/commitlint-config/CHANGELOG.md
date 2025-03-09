@@ -1,5 +1,11 @@
 # @commencis/commitlint-config
 
+## 1.1.3
+
+### Patch Changes
+
+- chore(deps): update commitlint monorepo to v19.8.0 ([#269](https://github.com/Commencis/js-toolkit/pull/269))
+
 ## 1.1.2
 
 ### Patch Changes
