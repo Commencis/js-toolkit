@@ -1,5 +1,21 @@
 # @commencis/eslint-config
 
+## 1.7.0
+
+### Minor Changes
+
+- chore(deps): update dependency eslint-plugin-vue to v10 ([#266](https://github.com/Commencis/js-toolkit/pull/266))
+
+  breaking-change: new minimum requirements for eslint and node versions
+
+### Patch Changes
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.2.1 ([#261](https://github.com/Commencis/js-toolkit/pull/261))
+
+- chore(deps): update eslint monorepo to v9.22.0 ([#267](https://github.com/Commencis/js-toolkit/pull/267))
+
+- chore(deps): update eslint-config-prettier to v10 ([#268](https://github.com/Commencis/js-toolkit/pull/268))
+
 ## 1.6.0
 
 ### Minor Changes
