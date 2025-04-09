@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- chore(deps): update stylelint peer-dependency to `>=16.18` ([#288](https://github.com/Commencis/js-toolkit/pull/288))
+
 ## 2.0.0
 
 ### Major Changes
