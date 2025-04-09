@@ -149,6 +149,9 @@ importers:
       '@commencis/ts-config':
         specifier: 0.0.2
         version: 0.0.2
+      lint-staged:
+        specifier: 15.5.0
+        version: 15.5.0
       tsup:
         specifier: 8.4.0
         version: 8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.2)(yaml@2.7.0)
