@@ -37,6 +37,6 @@
     "@commencis/ts-config": "0.0.2",
     "lint-staged": "15.5.0",
     "tsup": "8.4.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   }
 }
