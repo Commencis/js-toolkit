@@ -52,7 +52,7 @@
     "@commencis/lint-staged-config": "1.0.0",
     "@commencis/prettier-config": "2.0.0",
     "@commencis/ts-config": "0.0.2",
-    "@commitlint/cli": "19.8.0",
+    "@commitlint/cli": "19.8.1",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "@vitest/coverage-v8": "3.1.4",
     "eslint": "9.24.0",
