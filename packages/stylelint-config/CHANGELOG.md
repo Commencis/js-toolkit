@@ -1,5 +1,13 @@
 # @commencis/stylelint-config
 
+## 2.1.1
+
+### Patch Changes
+
+- chore(deps): update dependency stylelint-config-standard-scss to v15 ([#311](https://github.com/Commencis/js-toolkit/pull/311))
+
+- chore(deps): update dependency stylelint-order to v7 ([#312](https://github.com/Commencis/js-toolkit/pull/312))
+
 ## 2.1.0
 
 ### Minor Changes
