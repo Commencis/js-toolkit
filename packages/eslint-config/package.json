@@ -63,7 +63,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "9.24.0",
+    "@eslint/js": "9.27.0",
     "@next/eslint-plugin-next": "15.2.5",
     "@typescript-eslint/utils": "8.29.1",
     "eslint-config-prettier": "10.1.1",
@@ -78,7 +78,7 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "0.0.2",
-    "eslint": "9.24.0",
+    "eslint": "9.27.0",
     "tsup": "8.5.0",
     "typescript": "5.8.3"
   },
