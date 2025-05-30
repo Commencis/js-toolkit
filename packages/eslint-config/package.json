@@ -65,7 +65,7 @@
   "dependencies": {
     "@eslint/js": "9.27.0",
     "@next/eslint-plugin-next": "15.3.3",
-    "@typescript-eslint/utils": "8.29.1",
+    "@typescript-eslint/utils": "8.33.0",
     "eslint-config-prettier": "10.1.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.6",
@@ -74,7 +74,7 @@
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-vue": "10.0.0",
     "globals": "16.0.0",
-    "typescript-eslint": "8.29.1"
+    "typescript-eslint": "8.33.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "0.0.2",
