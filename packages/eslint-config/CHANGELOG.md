@@ -1,5 +1,23 @@
 # @commencis/eslint-config
 
+## 1.7.5
+
+### Patch Changes
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.4.6 ([#350](https://github.com/Commencis/js-toolkit/pull/350))
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.5.0 ([#360](https://github.com/Commencis/js-toolkit/pull/360))
+
+- chore(deps): update dependency eslint-plugin-vue to v10.4.0 ([#334](https://github.com/Commencis/js-toolkit/pull/334))
+
+- chore(deps): update dependency eslint-plugin-prettier to v5.5.4 ([#351](https://github.com/Commencis/js-toolkit/pull/351))
+
+- chore(deps): update eslint monorepo to v9.33.0 ([#353](https://github.com/Commencis/js-toolkit/pull/353))
+
+- chore(deps): update typescript-eslint monorepo to v8.40.0 ([#352](https://github.com/Commencis/js-toolkit/pull/352))
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.4.7 ([#357](https://github.com/Commencis/js-toolkit/pull/357))
+
 ## 1.7.4
 
 ### Patch Changes
