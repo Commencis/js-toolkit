@@ -53,6 +53,6 @@
     "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "stylelint": ">=16.18"
+    "stylelint": ">=16.22"
   }
 }
