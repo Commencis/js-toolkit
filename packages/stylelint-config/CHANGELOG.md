@@ -1,5 +1,13 @@
 # @commencis/stylelint-config
 
+## 2.2.0
+
+### Minor Changes
+
+- chore: update stylelint peer deps to v16.22 ([#343](https://github.com/Commencis/js-toolkit/pull/343))
+
+- chore: remove `stylelint` less than `16.23.0` from peer dependencies. ([#363](https://github.com/Commencis/js-toolkit/pull/363))
+
 ## 2.1.1
 
 ### Patch Changes
@@ -43,5 +51,4 @@
 ### Minor Changes
 
 - update dependency: postcss-styled-syntax@0.7.0 ([#123](https://github.com/Commencis/js-toolkit/pull/123))
-
   - Added support for passing a function to `styled` instead using it as a tagged template. For example, `styled.div(props => 'color: red;'')`, or `styled(Component)(props => 'color: red;')`

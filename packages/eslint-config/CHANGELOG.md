@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 1.8.0
+
+### Minor Changes
+
+- chore(deps): update eslint monorepo to v9.34.0 ([#364](https://github.com/Commencis/js-toolkit/pull/364))
+
 ## 1.7.5
 
 ### Patch Changes
