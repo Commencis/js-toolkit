@@ -39,7 +39,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@stylistic/stylelint-config": "2.0.0",
+    "@stylistic/stylelint-config": "3.0.1",
     "postcss-styled-syntax": "0.7.1",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-prettier-scss": "1.0.0",
@@ -53,6 +53,6 @@
     "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "stylelint": ">=16.18"
+    "stylelint": ">=16.22"
   }
 }
