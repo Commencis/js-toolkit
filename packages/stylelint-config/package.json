@@ -43,7 +43,7 @@
     "postcss-styled-syntax": "0.7.1",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-prettier-scss": "1.0.0",
-    "stylelint-config-standard": "38.0.0",
+    "stylelint-config-standard": "39.0.0",
     "stylelint-config-standard-scss": "15.0.1",
     "stylelint-order": "7.0.0"
   },
@@ -53,6 +53,6 @@
     "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "stylelint": ">=16.22"
+    "stylelint": ">=16.23"
   }
 }
