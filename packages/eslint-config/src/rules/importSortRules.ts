@@ -69,7 +69,7 @@ const GROUPS: Record<string, string[]> = {
   ]),
 
   // Internal root alias (catch-all leftover @/ imports)
-  INTERNAL_ROOT: [exact(''), subpath('')],
+  INTERNAL_ROOT: ['^@/.+$'],
 
   // Relative parent imports then same-dir relatives
   RELATIVE_PARENT: ['^\\.\\.(?!/?$)', '^\\.\\./?$'],

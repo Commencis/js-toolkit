@@ -1,4 +1,4 @@
-import { StylelintConfig } from '@/types';
+import type { StylelintConfig } from '@/types';
 
 import { cssRules, orderRules, scssRules } from '@/rules';
 import { stylisticRules } from '@/rules/stylisticRules';
