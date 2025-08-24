@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 1.5.0
+
+### Minor Changes
+
+- feat: update consistent type imports ([#370](https://github.com/Commencis/js-toolkit/pull/370))
+
 ## 1.4.5
 
 ### Patch Changes
