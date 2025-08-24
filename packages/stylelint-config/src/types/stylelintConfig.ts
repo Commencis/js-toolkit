@@ -1,4 +1,4 @@
-import { Config } from 'stylelint';
+import type { Config } from 'stylelint';
 
 type BaseConfig = Omit<Config, 'overrides' | 'extends'>;
 

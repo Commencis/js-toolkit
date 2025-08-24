@@ -1,4 +1,4 @@
-import { type FlatConfigArray } from '@/types';
+import type { FlatConfigArray } from '@/types';
 
 import baseConfig from '@/configs/base';
 import prettierConfig from '@/configs/prettier';

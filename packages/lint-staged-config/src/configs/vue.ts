@@ -1,4 +1,4 @@
-import { Configuration } from 'lint-staged';
+import type { Configuration } from 'lint-staged';
 
 import { SCSS, VUE } from '@/constants';
 import { ESLINT, STYLELINT } from '@/helpers';

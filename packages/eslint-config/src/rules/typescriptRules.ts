@@ -5,8 +5,14 @@ export const typescriptRules: Linter.RulesRecord = {
   '@typescript-eslint/no-empty-function': 'off',
   '@typescript-eslint/array-type': 'off',
 
-  '@typescript-eslint/consistent-type-imports': 'error',
   '@typescript-eslint/explicit-function-return-type': 'error',
+  '@typescript-eslint/consistent-type-imports': [
+    'error',
+    {
+      prefer: 'type-imports',
+      fixStyle: 'separate-type-imports',
+    },
+  ],
   '@typescript-eslint/no-unused-vars': [
     'error',
     {

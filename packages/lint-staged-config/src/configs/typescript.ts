@@ -1,4 +1,4 @@
-import { Configuration } from 'lint-staged';
+import type { Configuration } from 'lint-staged';
 
 import { JSX_TSX } from '@/constants';
 import { ESLINT } from '@/helpers';

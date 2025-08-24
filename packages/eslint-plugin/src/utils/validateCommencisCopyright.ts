@@ -1,4 +1,4 @@
-import { AST_TOKEN_TYPES, TSESTree } from '@typescript-eslint/utils';
+import { AST_TOKEN_TYPES, type TSESTree } from '@typescript-eslint/utils';
 
 export function validateCommencisCopyright(
   comment?: TSESTree.Comment | string
