@@ -1,8 +1,8 @@
 import type { StylelintConfig } from '@/types';
 
-import scssConfig from './scss';
-
 import { vueCssRules, vueScssRules } from '@/rules';
+
+import scssConfig from './scss';
 
 const vueScssConfig: StylelintConfig = {
   ...scssConfig,

@@ -1,8 +1,8 @@
 import type { StylelintConfig } from '@/types';
 
-import scssConfig from './scss';
-
 import { cssModulesRules, scssModulesRules } from '@/rules';
+
+import scssConfig from './scss';
 
 const scssModulesConfig: StylelintConfig = {
   ...scssConfig,
