@@ -1,5 +1,11 @@
 # @commencis/lint-staged-config
 
+## 1.1.0
+
+### Minor Changes
+
+- feat: update consistent type imports ([#370](https://github.com/Commencis/js-toolkit/pull/370))
+
 ## 1.0.0
 
 ### Major Changes

@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- feat: update consistent type imports ([#370](https://github.com/Commencis/js-toolkit/pull/370))
+
 ## 2.0.0
 
 ### Major Changes
