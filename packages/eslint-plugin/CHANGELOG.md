@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 1.5.1
+
+### Patch Changes
+
+- chore(deps): update typescript-eslint monorepo to v8.41.0 ([#373](https://github.com/Commencis/js-toolkit/pull/373))
+
 ## 1.5.0
 
 ### Minor Changes
