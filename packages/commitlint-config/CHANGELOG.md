@@ -1,5 +1,13 @@
 # @commencis/commitlint-config
 
+## 1.2.0
+
+### Minor Changes
+
+- chore(deps): update dependency @commitlint/config-conventional to v20 ([#390](https://github.com/Commencis/js-toolkit/pull/390))
+
+- chore: update dependencies ([#388](https://github.com/Commencis/js-toolkit/pull/388))
+
 ## 1.1.4
 
 ### Patch Changes
@@ -23,6 +31,5 @@
 ### Patch Changes
 
 - update dependencies: commitlint ([#144](https://github.com/Commencis/js-toolkit/pull/144))
-
   - @commitlint/cli@19.6.0
   - @commitlint/config-conventional@19.6.0

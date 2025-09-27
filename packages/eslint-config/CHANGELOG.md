@@ -1,5 +1,13 @@
 # @commencis/eslint-config
 
+## 2.2.0
+
+### Minor Changes
+
+- chore: update dependencies ([#388](https://github.com/Commencis/js-toolkit/pull/388))
+
+- feat: re-organize import sort rules for styles and assets ([#388](https://github.com/Commencis/js-toolkit/pull/388))
+
 ## 2.1.1
 
 ### Patch Changes
