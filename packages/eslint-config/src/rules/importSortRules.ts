@@ -68,19 +68,20 @@ const GROUPS: Record<string, string[]> = {
     'components',
   ]),
 
-  // Internal root alias (catch-all leftover @/ imports)
-  INTERNAL_ROOT: ['^@/.+$'],
+  // Internal root alias (catch-all leftover @/ imports except styles and assets)
+  INTERNAL_ROOT: ['^@/(?!.*\\.(s?css|svg|png)$).+$'],
 
   // Relative parent imports then same-dir relatives
   RELATIVE_PARENT: ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
   RELATIVE_SAME: ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
 
   // Styles
-  STYLES: ['^.+\\.(s?css|(style(s)?)\\..+)$'],
+  STYLES: ['^@/.+\\.s?css$', '^\\./.+\\.s?css$'],
 
   // Assets
   ASSETS: [
     '(asset(s?)|public|static|images)(/.*|$)',
+    '^@/.+\\.(svg|png)$',
     '^.+\\.svg$',
     '^.+\\.png$',
   ],
