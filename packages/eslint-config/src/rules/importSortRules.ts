@@ -75,15 +75,22 @@ const GROUPS: Record<string, string[]> = {
   RELATIVE_PARENT: ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
   RELATIVE_SAME: ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
 
-  // Styles
-  STYLES: ['^@/.+\\.s?css$', '^\\./.+\\.s?css$'],
-
   // Assets
   ASSETS: [
     '(asset(s?)|public|static|images)(/.*|$)',
     '^@/.+\\.(svg|png)$',
     '^.+\\.svg$',
     '^.+\\.png$',
+  ],
+
+  // Styles
+  STYLES: [
+    // side-effect - virtual css imports
+    '^\\u0000.+\\.s?css$',
+    // root alias css imports
+    '^@/.+\\.s?css$',
+    // relative css imports
+    '^(\\.{1,2}/).+\\.s?css$',
   ],
 };
 
@@ -100,8 +107,8 @@ export const importSortRules: Linter.RulesRecord = {
         withTypeFirst(GROUPS.INTERNAL_ROOT),
         withTypeFirst(GROUPS.RELATIVE_PARENT),
         withTypeFirst(GROUPS.RELATIVE_SAME),
-        GROUPS.STYLES,
         GROUPS.ASSETS,
+        GROUPS.STYLES,
       ],
     },
   ],
