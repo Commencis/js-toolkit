@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 2.4.0
+
+### Minor Changes
+
+- chore: update dependencies ([#388](https://github.com/Commencis/js-toolkit/pull/388))
+
 ## 2.3.0
 
 ### Minor Changes
