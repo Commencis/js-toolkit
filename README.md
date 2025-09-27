@@ -33,14 +33,14 @@ The repository is structured as a monorepo, which allows for managing all the pa
 
 #### Node.js
 
-Before you begin, ensure you have `node: >= 22.14` installed on your system.
+Before you begin, ensure you have `node: >= 22.20` installed on your system.
 
 #### pnpm
 
-This project uses `pnpm` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
+This project uses `pnpm@10.17.1` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
 
 ```bash
-corepack prepare pnpm@latest --activate
+corepack prepare pnpm@10.17.1 --activate
 corepack enable pnpm
 ```
 
