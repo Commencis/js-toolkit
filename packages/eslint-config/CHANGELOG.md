@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 2.3.0
+
+### Minor Changes
+
+- feat: include side-effect scss imports to sorting ([#392](https://github.com/Commencis/js-toolkit/pull/392))
+
 ## 2.2.0
 
 ### Minor Changes
