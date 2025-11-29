@@ -2,14 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    "schedule:weekly",
+    ":maintainLockFilesWeekly",
     "group:allNonMajor",
     "group:nodeJs",
     ":enableVulnerabilityAlerts",
     ":separateMultipleMajorReleases",
-    "schedule:weekly",
-    ":maintainLockFilesWeekly",
     ":automergeDisabled",
     ":prConcurrentLimit10",
+    ":semanticPrefixChore",
     ":configMigration"
   ],
   "timezone": "Europe/Istanbul",
@@ -19,6 +20,14 @@
       "matchPackageNames": ["node"],
       "matchUpdateTypes": ["major"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["node"],
+      "groupName": "update node version"
+    },
+    {
+      "matchPackageNames": ["pnpm"],
+      "groupName": "update pnpm version"
     }
   ]
 }
