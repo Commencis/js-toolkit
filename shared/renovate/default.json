@@ -2,18 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":automergeDisabled",
+    "group:allNonMajor",
+    "group:nodeJs",
     ":enableVulnerabilityAlerts",
-    ":prConcurrentLimit10",
-    ":separateMultipleMajorReleases"
+    ":separateMultipleMajorReleases",
+    "schedule:weekly",
+    ":maintainLockFilesWeekly",
+    ":automergeDisabled",
+    ":prConcurrentLimit10"
   ],
   "timezone": "Europe/Istanbul",
-  "schedule": ["after 7am and before 9am"],
   "baseBranches": ["main"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["after 7am and before 9am on Monday"]
-  },
   "packageRules": [
     {
       "matchPackageNames": ["node"],
