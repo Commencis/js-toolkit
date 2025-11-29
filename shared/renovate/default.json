@@ -9,10 +9,11 @@
     "schedule:weekly",
     ":maintainLockFilesWeekly",
     ":automergeDisabled",
-    ":prConcurrentLimit10"
+    ":prConcurrentLimit10",
+    ":configMigration"
   ],
   "timezone": "Europe/Istanbul",
-  "baseBranches": ["main"],
+  "baseBranchPatterns": ["main"],
   "packageRules": [
     {
       "matchPackageNames": ["node"],
