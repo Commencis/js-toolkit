@@ -11,5 +11,8 @@ export const reactHooksPluginConfig: FlatConfig = {
   plugins: {
     'react-hooks': reactHooksPlugin,
   },
-  rules: { ...reactHooksRules },
+  rules: {
+    ...reactHooksPlugin.configs.recommended.rules,
+    ...reactHooksRules,
+  },
 };
