@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 2.4.0
+
+### Minor Changes
+
+- - [Release]: Final stable versions before breaking changes. ([#402](https://github.com/Commencis/js-toolkit/pull/402))
+
 ## 2.3.0
 
 ### Minor Changes
