@@ -2,7 +2,6 @@
 '@commencis/lint-staged-config': major
 '@commencis/commitlint-config': major
 '@commencis/eslint-plugin': major
-'@commencis/ts-config': major
 '@commencis/stylelint-config': minor
 '@commencis/prettier-config': minor
 '@commencis/eslint-config': minor
