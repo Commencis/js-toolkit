@@ -43,14 +43,14 @@
     "postcss-styled-syntax": "0.7.1",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-prettier-scss": "1.0.0",
-    "stylelint-config-standard": "39.0.0",
+    "stylelint-config-standard": "39.0.1",
     "stylelint-config-standard-scss": "16.0.0",
     "stylelint-order": "7.0.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "0.0.2",
-    "tsup": "8.5.0",
-    "typescript": "5.9.2"
+    "tsup": "8.5.1",
+    "typescript": "5.9.3"
   },
   "peerDependencies": {
     "stylelint": ">=16.23.1"
