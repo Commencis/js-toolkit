@@ -12,8 +12,8 @@ importers:
         specifier: 2.29.8
         version: 2.29.8(@types/node@24.10.1)
       '@commencis/commitlint-config':
-        specifier: 1.2.0
-        version: 1.2.0
+        specifier: 2.0.0
+        version: 2.0.0
       '@commencis/eslint-config':
         specifier: 2.3.0
         version: 2.3.0(@typescript-eslint/parser@8.44.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(prettier@3.7.3)(typescript@5.9.3)(vue-eslint-parser@10.2.0(eslint@9.39.1(jiti@2.6.1)))
@@ -308,8 +308,8 @@ packages:
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==}
 
-  '@commencis/commitlint-config@1.2.0':
-    resolution: {integrity: sha512-wjleTgXr9NuGqyIS3DNfxd3+6HUvy2UNK8hVWqQ08YeGYU6GRWOAWAxd/rZB197Vt0Gy9MqrSm9PFsJyoDGhyQ==}
+  '@commencis/commitlint-config@2.0.0':
+    resolution: {integrity: sha512-Bbe/rTYOE8DCbeCy5z4KUt+DEBgclUSmhj7VGYAURj711lkhO3ueBu8m/MozUwJdSjoSZFoCIb1mR+F83xrLtw==}
 
   '@commencis/eslint-config@2.3.0':
     resolution: {integrity: sha512-+YtKmQ3dGkY3r0bRiMcZsNIrzLCD7X6sRLCO8CEzViakCAxJM95/j19PCdZ4KDMqtFvGYjbhcorx0Y7Lvp+reg==}
@@ -3497,7 +3497,7 @@ snapshots:
       human-id: 4.1.3
       prettier: 2.8.8
 
-  '@commencis/commitlint-config@1.2.0':
+  '@commencis/commitlint-config@2.0.0':
     dependencies:
       '@commitlint/config-conventional': 20.0.0
 
