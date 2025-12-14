@@ -1,6 +1,13 @@
 name: Setup & Install
 description: Common setup steps for Actions
 
+inputs:
+  registry-url:
+    description: package registry url
+    required: false
+    default: https://registry.npmjs.org
+
+
 runs:
   using: composite
   steps:
@@ -12,6 +19,7 @@ runs:
       with:
         node-version-file: '.nvmrc'
         cache: pnpm
+        registry-url: ${{ inputs.registry-url }}
 
     - name: Install Dependencies
       shell: bash
