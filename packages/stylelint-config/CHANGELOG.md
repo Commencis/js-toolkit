@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 2.6.0
+
+### Minor Changes
+
+- chore: update minor dependencies, node to v24.12 and pnpm to v10.25 ([#408](https://github.com/Commencis/js-toolkit/pull/408))
+
 ## 2.5.0
 
 ### Minor Changes

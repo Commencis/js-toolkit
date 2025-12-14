@@ -1,5 +1,11 @@
 # @commencis/lint-staged-config
 
+## 2.1.0
+
+### Minor Changes
+
+- chore: update minor dependencies, node to v24.12 and pnpm to v10.25 ([#408](https://github.com/Commencis/js-toolkit/pull/408))
+
 ## 2.0.0
 
 ### Major Changes
