@@ -1,6 +1,6 @@
 {
   "name": "@commencis/ts-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Commencis TypeScript Config",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
