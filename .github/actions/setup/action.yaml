@@ -7,7 +7,6 @@ inputs:
     required: false
     default: https://registry.npmjs.org
 
-
 runs:
   using: composite
   steps:
