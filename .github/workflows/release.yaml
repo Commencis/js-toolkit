@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -40,4 +45,3 @@ jobs:
           title: 'ci(release): version packages'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
