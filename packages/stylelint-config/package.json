@@ -45,7 +45,7 @@
     "stylelint-config-prettier-scss": "1.0.0",
     "stylelint-config-standard": "39.0.1",
     "stylelint-config-standard-scss": "16.0.0",
-    "stylelint-order": "7.0.0"
+    "stylelint-order": "7.0.1"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
