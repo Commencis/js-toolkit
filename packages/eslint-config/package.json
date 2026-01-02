@@ -25,28 +25,28 @@
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
     },
     "./javascript": {
-      "types": "./dist/configs/javascript.d.ts",
-      "import": "./dist/configs/javascript.js"
+      "types": "./dist/configs/javascript.d.mts",
+      "import": "./dist/configs/javascript.mjs"
     },
     "./typescript": {
-      "types": "./dist/configs/typescript.d.ts",
-      "import": "./dist/configs/typescript.js"
+      "types": "./dist/configs/typescript.d.mts",
+      "import": "./dist/configs/typescript.mjs"
     },
     "./react": {
-      "types": "./dist/configs/react.d.ts",
-      "import": "./dist/configs/react.js"
+      "types": "./dist/configs/react.d.mts",
+      "import": "./dist/configs/react.mjs"
     },
     "./next": {
-      "types": "./dist/configs/next.d.ts",
-      "import": "./dist/configs/next.js"
+      "types": "./dist/configs/next.d.mts",
+      "import": "./dist/configs/next.mjs"
     },
     "./native": {
-      "types": "./dist/configs/native.d.ts",
-      "import": "./dist/configs/native.js"
+      "types": "./dist/configs/native.d.mts",
+      "import": "./dist/configs/native.mjs"
     }
   },
   "scripts": {
