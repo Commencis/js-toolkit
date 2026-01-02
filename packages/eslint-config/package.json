@@ -28,61 +28,49 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
-    "./base": {
-      "types": "./dist/configs/base.d.ts",
-      "import": "./dist/configs/base.js"
-    },
-    "./next": {
-      "types": "./dist/configs/next.d.ts",
-      "import": "./dist/configs/next.js"
-    },
-    "./prettier": {
-      "types": "./dist/configs/prettier.d.ts",
-      "import": "./dist/configs/prettier.js"
-    },
-    "./react": {
-      "types": "./dist/configs/react.d.ts",
-      "import": "./dist/configs/react.js"
-    },
-    "./react-native": {
-      "types": "./dist/configs/react-native.d.ts",
-      "import": "./dist/configs/react-native.js"
+    "./javascript": {
+      "types": "./dist/configs/javascript.d.ts",
+      "import": "./dist/configs/javascript.js"
     },
     "./typescript": {
       "types": "./dist/configs/typescript.d.ts",
       "import": "./dist/configs/typescript.js"
     },
-    "./vue": {
-      "types": "./dist/configs/vue.d.ts",
-      "import": "./dist/configs/vue.js"
+    "./react": {
+      "types": "./dist/configs/react.d.ts",
+      "import": "./dist/configs/react.js"
+    },
+    "./next": {
+      "types": "./dist/configs/next.d.ts",
+      "import": "./dist/configs/next.js"
+    },
+    "./native": {
+      "types": "./dist/configs/native.d.ts",
+      "import": "./dist/configs/native.js"
     }
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eslint/js": "9.39.2",
-    "@next/eslint-plugin-next": "15.5.9",
-    "@typescript-eslint/utils": "8.49.0",
+    "@next/eslint-plugin-next": "16.1.1",
+    "@typescript-eslint/utils": "8.51.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-vue": "10.6.2",
-    "globals": "16.5.0",
-    "typescript-eslint": "8.49.0"
+    "globals": "17.0.0",
+    "typescript-eslint": "8.51.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "eslint": "9.39.2",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "eslint": "9.39.2"
   },
   "peerDependencies": {
-    "eslint": ">=9.38"
+    "eslint": ">=9.39"
   }
 }

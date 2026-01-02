@@ -29,14 +29,12 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "lint-staged": "16.2.7",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "lint-staged": "16.2.7"
   }
 }

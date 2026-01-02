@@ -1,22 +1,11 @@
-import type { FlatConfigArray } from '@/types';
+import { defineConfig } from 'eslint/config';
 
-import baseConfig from '@/configs/base';
-import prettierConfig from '@/configs/prettier';
-import typescriptConfig from '@/configs/typescript';
-import {
-  jsxA11yPluginConfig,
-  nextPluginConfig,
-  reactHooksPluginConfig,
-  reactPluginConfig,
-} from '@/plugins';
+import { configFactory } from '@/lib/configFactory';
 
-export default [
-  ...baseConfig,
-  ...typescriptConfig,
-  reactPluginConfig,
-  reactHooksPluginConfig,
-  jsxA11yPluginConfig,
-  nextPluginConfig,
-  ...prettierConfig,
-  { name: 'commencis/next' },
-] as FlatConfigArray;
+export const nextConfig = configFactory({
+  typescript: true,
+  react: true,
+  nextjs: true,
+});
+
+export default defineConfig(nextConfig);

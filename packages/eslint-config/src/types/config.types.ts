@@ -11,8 +11,13 @@ import type { Linter } from 'eslint';
  * (https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#using-plugins-in-your-configuration)
  */
 
-export type FlatConfig = Omit<Linter.Config, 'plugins'> & {
-  plugins?: Record<string, unknown>;
+/**
+ * Plugin relaxation reverted temporarily,
+ * which causes type errors in the config files.
+ */
+
+export type Ruleset = Linter.Config & {
+  name: string;
 };
 
-export type FlatConfigArray = FlatConfig[];
+export type FlatConfig = Ruleset[];

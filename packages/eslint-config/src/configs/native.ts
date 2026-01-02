@@ -2,9 +2,9 @@ import { defineConfig } from 'eslint/config';
 
 import { configFactory } from '@/lib/configFactory';
 
-export const reactConfig = configFactory({
+export const reactNativeConfig = configFactory({
   typescript: true,
   react: true,
 });
 
-export default defineConfig(reactConfig);
+export default defineConfig(reactNativeConfig);

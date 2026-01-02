@@ -1,16 +1,9 @@
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-import type { FlatConfigArray } from '@/types';
+import { configFactory } from '@/lib/configFactory';
 
-import { typescriptRules } from '@/rules';
+export const typescriptConfig = configFactory({
+  typescript: true,
+});
 
-export default [
-  ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic,
-  {
-    name: 'commencis/typescript',
-    rules: {
-      ...typescriptRules,
-    },
-  },
-] as FlatConfigArray;
+export default defineConfig(typescriptConfig);

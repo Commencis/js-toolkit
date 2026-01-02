@@ -29,15 +29,13 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "prettier": "3.7.4",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "prettier": "3.7.4"
   },
   "peerDependencies": {
     "prettier": ">=3.7"
