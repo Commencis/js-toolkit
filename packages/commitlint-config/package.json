@@ -29,8 +29,8 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "test": "vitest",
     "lint:types": "tsc --noEmit"
   },
@@ -39,8 +39,6 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "@commitlint/types": "20.2.0",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "@commitlint/types": "20.2.0"
   }
 }

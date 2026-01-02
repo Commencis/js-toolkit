@@ -1,6 +1,5 @@
 import type { Linter } from '@typescript-eslint/utils/ts-eslint';
 
-import { all, recommended } from '@/configs';
 import rules from '@/rules';
 
 import packageJson from '../package.json';
@@ -18,13 +17,17 @@ Object.assign(plugin.configs, {
   all: [
     {
       plugins: { '@commencis': plugin },
-      rules: all,
+      rules: {
+        '@commencis/copyright-text': 'error',
+      },
     },
   ],
   recommended: [
     {
       plugins: { '@commencis': plugin },
-      rules: recommended,
+      rules: {
+        '@commencis/copyright-text': 'off',
+      },
     },
   ],
 });
