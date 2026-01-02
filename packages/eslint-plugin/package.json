@@ -1,6 +1,6 @@
 {
   "name": "@commencis/eslint-plugin",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Commencis ESLint plugin",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",

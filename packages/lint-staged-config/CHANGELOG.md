@@ -1,5 +1,11 @@
 # @commencis/lint-staged-config
 
+## 3.0.1
+
+### Patch Changes
+
+- fix: export paths ([#416](https://github.com/Commencis/js-toolkit/pull/416))
+
 ## 3.0.0
 
 ### Major Changes
