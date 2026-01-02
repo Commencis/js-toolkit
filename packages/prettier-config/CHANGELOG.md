@@ -1,5 +1,11 @@
 # @commencis/prettier-config
 
+## 3.0.0
+
+### Major Changes
+
+- [BreakingChange]: Introducing v3 - With cleaner dependencies and structure. Check readme files for implementations. ([#414](https://github.com/Commencis/js-toolkit/pull/414))
+
 ## 2.2.0
 
 ### Minor Changes
