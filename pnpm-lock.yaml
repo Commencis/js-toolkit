@@ -12,8 +12,8 @@ importers:
         specifier: 2.29.8
         version: 2.29.8(@types/node@25.0.3)
       '@commencis/commitlint-config':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 3.0.1
+        version: 3.0.1
       '@commencis/eslint-config':
         specifier: 2.5.0
         version: 2.5.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)(vue-eslint-parser@10.2.0(eslint@9.39.2(jiti@2.6.1)))
@@ -315,8 +315,8 @@ packages:
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==}
 
-  '@commencis/commitlint-config@2.1.0':
-    resolution: {integrity: sha512-EKa5HzYPORONASSIu0lZsPCEij1YwX2D1efikVfQvXg2v7ww7DGTrdOz57joMPGEyg5msELPel2Ink15YHFr9w==}
+  '@commencis/commitlint-config@3.0.1':
+    resolution: {integrity: sha512-ggwLoQWQRMo6We6wITzxd591GgD/2WA45SxC2mTia9oYLRE7wTHju5YTHqv/LkqrZXcTwpsuzwuec547WUKD7w==}
 
   '@commencis/eslint-config@2.5.0':
     resolution: {integrity: sha512-Wy5AEtDGvW9XKdyh692T2KWsw0hksx01+qW4ukvXbli40Yn4nO4u/zMlgjnsY/w6xonU/scp8Tunyy6XXoyY/g==}
@@ -338,10 +338,6 @@ packages:
     resolution: {integrity: sha512-HXO8YVfqdBK+MnlX2zqNrv6waGYPs6Ysjm5W2Y0GMagWXwiIKx7C8dcIX9ca+QdHq4WA0lcMnZLQ0pzQh1piZg==}
     engines: {node: '>=v18'}
     hasBin: true
-
-  '@commitlint/config-conventional@20.2.0':
-    resolution: {integrity: sha512-MsRac+yNIbTB4Q/psstKK4/ciVzACHicSwz+04Sxve+4DW+PiJeTjU0JnS4m/oOnulrXYN+yBPlKaBSGemRfgQ==}
-    engines: {node: '>=v18'}
 
   '@commitlint/config-conventional@20.3.0':
     resolution: {integrity: sha512-g1OXVl6E2v0xF1Ru2RpxQ+Vfy7XUcUsCmLKzGUrhFLS4hSNykje0QSy6djBtzOiOBQCepBrmIlqx/gRlzrSh5A==}
@@ -3650,9 +3646,9 @@ snapshots:
       human-id: 4.1.3
       prettier: 2.8.8
 
-  '@commencis/commitlint-config@2.1.0':
+  '@commencis/commitlint-config@3.0.1':
     dependencies:
-      '@commitlint/config-conventional': 20.2.0
+      '@commitlint/config-conventional': 20.3.0
 
   '@commencis/eslint-config@2.5.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)(vue-eslint-parser@10.2.0(eslint@9.39.2(jiti@2.6.1)))':
     dependencies:
@@ -3698,11 +3694,6 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
-
-  '@commitlint/config-conventional@20.2.0':
-    dependencies:
-      '@commitlint/types': 20.2.0
-      conventional-changelog-conventionalcommits: 7.0.2
 
   '@commitlint/config-conventional@20.3.0':
     dependencies:
