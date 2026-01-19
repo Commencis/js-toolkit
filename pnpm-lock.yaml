@@ -18,8 +18,8 @@ importers:
         specifier: 2.5.0
         version: 2.5.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(typescript@5.9.3)(vue-eslint-parser@10.2.0(eslint@9.39.2(jiti@2.6.1)))
       '@commencis/lint-staged-config':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 3.0.1
+        version: 3.0.1
       '@commencis/prettier-config':
         specifier: 2.2.0
         version: 2.2.0(prettier@3.7.4)
@@ -323,8 +323,8 @@ packages:
     peerDependencies:
       eslint: '>=9.38'
 
-  '@commencis/lint-staged-config@2.1.0':
-    resolution: {integrity: sha512-sj3tslYnTInAP1s2lmgu3bXWjb8DqFoHArmBeci7F9hFmiICKfCzCFwiquRdEFdvBLRMTnrP2ge+A13HJGDv0w==}
+  '@commencis/lint-staged-config@3.0.1':
+    resolution: {integrity: sha512-4M0aIzIQj/UL4MZ/JpMztQn/vhb5dJAtdXN+QP6NWx4BvNUwr9ikemS7bCAkbu6rAUoKiok+iyXUK9049ndx/g==}
 
   '@commencis/prettier-config@2.2.0':
     resolution: {integrity: sha512-lG7l2XtY1T+H92oJWRtQ5zCgTWRNq56ZPC+9E4Lb4pQ0H/UUR5/rfPxAyrv4TDMrbB+9gztgDboal7/poeIZ3w==}
@@ -3678,7 +3678,7 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@commencis/lint-staged-config@2.1.0': {}
+  '@commencis/lint-staged-config@3.0.1': {}
 
   '@commencis/prettier-config@2.2.0(prettier@3.7.4)':
     dependencies:
