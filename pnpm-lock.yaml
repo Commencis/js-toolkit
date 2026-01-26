@@ -21,8 +21,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       '@commencis/prettier-config':
-        specifier: 2.2.0
-        version: 2.2.0(prettier@3.7.4)
+        specifier: 3.0.1
+        version: 3.0.1(prettier@3.7.4)
       '@commencis/ts-config':
         specifier: 1.0.0
         version: 1.0.0
@@ -326,8 +326,8 @@ packages:
   '@commencis/lint-staged-config@2.1.0':
     resolution: {integrity: sha512-sj3tslYnTInAP1s2lmgu3bXWjb8DqFoHArmBeci7F9hFmiICKfCzCFwiquRdEFdvBLRMTnrP2ge+A13HJGDv0w==}
 
-  '@commencis/prettier-config@2.2.0':
-    resolution: {integrity: sha512-lG7l2XtY1T+H92oJWRtQ5zCgTWRNq56ZPC+9E4Lb4pQ0H/UUR5/rfPxAyrv4TDMrbB+9gztgDboal7/poeIZ3w==}
+  '@commencis/prettier-config@3.0.1':
+    resolution: {integrity: sha512-WPguZZNW8PWTemI54H4GFhaxF4krvtyQdP79SU3WRZ+csV4C4SHuzName/K5+HVcmmmvxsr95iAEYsUyM5UFOg==}
     peerDependencies:
       prettier: '>=3.7'
 
@@ -3680,7 +3680,7 @@ snapshots:
 
   '@commencis/lint-staged-config@2.1.0': {}
 
-  '@commencis/prettier-config@2.2.0(prettier@3.7.4)':
+  '@commencis/prettier-config@3.0.1(prettier@3.7.4)':
     dependencies:
       prettier: 3.7.4
 
