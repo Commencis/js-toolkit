@@ -1,15 +1,4 @@
-import {
-  commencisBaseConfig,
-  commencisPrettierConfig,
-  commencisTypescriptConfig,
-  defineConfig,
-} from '@commencis/eslint-config';
+import { typescriptConfig } from '@commencis/eslint-config';
+import { defineConfig } from 'eslint/config';
 
-export default defineConfig(
-  ...commencisBaseConfig,
-  ...commencisTypescriptConfig,
-  ...commencisPrettierConfig,
-  {
-    ignores: ['**/dist/', 'coverage'],
-  }
-);
+export default defineConfig(typescriptConfig);
