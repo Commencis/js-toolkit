@@ -36,5 +36,13 @@
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
     "lint-staged": "16.2.7"
+  },
+  "peerDependencies": {
+    "lint-staged": ">=16.2"
+  },
+  "peerDependenciesMeta": {
+    "lint-staged": {
+      "optional": true
+    }
   }
 }
