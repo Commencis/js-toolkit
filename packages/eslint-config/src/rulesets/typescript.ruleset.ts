@@ -10,7 +10,10 @@ export const typescriptRuleset: Ruleset = {
   },
   languageOptions: {
     parser,
-    sourceType: 'module',
+    parserOptions: {
+      sourceType: 'module',
+      projectService: true,
+    },
   },
   rules: {
     // ts-strict
