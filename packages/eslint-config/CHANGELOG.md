@@ -1,5 +1,13 @@
 # @commencis/eslint-config
 
+## 3.2.0
+
+### Minor Changes
+
+- - feat: initialize project service for ts-eslint ([#431](https://github.com/Commencis/js-toolkit/pull/431))
+  - feat: add base complexity rules
+  - feat: add jest and vitest globals
+
 ## 3.1.0
 
 ### Minor Changes
