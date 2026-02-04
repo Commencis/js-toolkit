@@ -10,6 +10,8 @@ export const baseRuleset: Ruleset = {
       ...globals.es2021,
       ...globals.node,
       ...globals.serviceworker,
+      ...globals.jest,
+      ...globals.vitest,
     },
     parserOptions: {
       ecmaFeatures: {

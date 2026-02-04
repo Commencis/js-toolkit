@@ -66,6 +66,13 @@ export const javascriptRuleset: Ruleset = {
     'require-yield': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
+
+    complexity: ['error', { max: 20 }],
+    'max-statements': ['error', 30],
+    'max-nested-callbacks': ['error', 3],
+    'max-lines': ['error', 500],
+    'max-params': ['error', 4],
+    'max-depth': ['error', 3],
   },
   name: '@commencis/javascript',
 };
