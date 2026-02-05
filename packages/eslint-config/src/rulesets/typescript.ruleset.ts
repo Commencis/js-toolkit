@@ -86,6 +86,8 @@ export const typescriptRuleset: Ruleset = {
         varsIgnorePattern: '^_',
       },
     ],
+
+    'no-undef': 'off',
   },
   name: '@commencis/typescript',
 };
