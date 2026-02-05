@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 3.4.0
+
+### Minor Changes
+
+- chore: remove no-undef rule from typescriptConfig ([#435](https://github.com/Commencis/js-toolkit/pull/435))
+
 ## 3.3.0
 
 ### Minor Changes
