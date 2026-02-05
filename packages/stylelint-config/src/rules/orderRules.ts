@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import { createAtRule, createLogicalGroup, createRule } from '@/utils';
 
 export const orderRules = {

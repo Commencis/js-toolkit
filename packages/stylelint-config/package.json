@@ -39,18 +39,18 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@stylistic/stylelint-config": "3.0.1",
+    "@stylistic/stylelint-config": "4.0.0",
     "postcss-styled-syntax": "0.7.1",
     "stylelint-config-html": "1.1.0",
     "stylelint-config-prettier-scss": "1.0.0",
-    "stylelint-config-standard": "39.0.1",
-    "stylelint-config-standard-scss": "16.0.0",
+    "stylelint-config-standard": "40.0.0",
+    "stylelint-config-standard-scss": "17.0.0",
     "stylelint-order": "7.0.1"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=16.23.1"
+    "stylelint": ">=17"
   }
 }
