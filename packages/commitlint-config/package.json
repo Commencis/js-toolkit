@@ -1,6 +1,6 @@
 {
   "name": "@commencis/commitlint-config",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Commencis Commitlint config",
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
