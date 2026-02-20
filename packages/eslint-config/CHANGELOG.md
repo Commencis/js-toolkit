@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 3.5.0
+
+### Minor Changes
+
+- chore: update dependencies ([#440](https://github.com/Commencis/js-toolkit/pull/440))
+
 ## 3.4.0
 
 ### Minor Changes
