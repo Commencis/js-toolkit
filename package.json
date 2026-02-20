@@ -22,7 +22,7 @@
   "engines": {
     "node": ">=24.13"
   },
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.30.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
@@ -47,20 +47,20 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.29.8",
-    "@commencis/commitlint-config": "3.1.0",
-    "@commencis/eslint-config": "3.2.0",
+    "@commencis/commitlint-config": "3.2.0",
+    "@commencis/eslint-config": "3.4.0",
     "@commencis/lint-staged-config": "3.1.0",
     "@commencis/prettier-config": "3.1.0",
     "@commencis/ts-config": "1.0.0",
-    "@commitlint/cli": "20.4.1",
+    "@commitlint/cli": "20.4.2",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "@vitest/coverage-v8": "4.0.18",
-    "eslint": "9.39.2",
+    "eslint": "9.39.3",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.8.1",
     "tsdown": "0.20.3",
-    "turbo": "2.8.3",
+    "turbo": "2.8.10",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
   }
