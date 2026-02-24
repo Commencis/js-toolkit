@@ -68,7 +68,7 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "eslint": "9.39.3"
+    "eslint": "10.0.2"
   },
   "peerDependencies": {
     "eslint": ">=9.39"
