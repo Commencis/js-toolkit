@@ -55,20 +55,20 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "16.1.6",
-    "@typescript-eslint/utils": "8.56.0",
+    "@next/eslint-plugin-next": "16.2.2",
+    "@typescript-eslint/utils": "8.58.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "globals": "17.3.0",
-    "typescript-eslint": "8.56.0"
+    "globals": "17.4.0",
+    "typescript-eslint": "8.58.0"
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "eslint": "9.39.3"
+    "eslint": "9.39.4"
   },
   "peerDependencies": {
     "eslint": ">=9.39"
