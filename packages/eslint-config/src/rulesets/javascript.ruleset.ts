@@ -73,6 +73,8 @@ export const javascriptRuleset: Ruleset = {
     'max-lines': ['error', 500],
     'max-params': ['error', 4],
     'max-depth': ['error', 3],
+
+    curly: 'error',
   },
   name: '@commencis/javascript',
 };
