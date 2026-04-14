@@ -1,5 +1,11 @@
 # @commencis/commitlint-config
 
+## 3.4.0
+
+### Minor Changes
+
+- chore: update dependencies ([#453](https://github.com/Commencis/js-toolkit/pull/453))
+
 ## 3.3.0
 
 ### Minor Changes
