@@ -67,15 +67,15 @@ importers:
         specifier: '>=20'
         version: 20.4.2(@types/node@12.20.55)(conventional-commits-parser@6.4.0)(typescript@5.9.3)
       '@commitlint/config-conventional':
-        specifier: 20.4.2
-        version: 20.4.2
+        specifier: 20.5.0
+        version: 20.5.0
     devDependencies:
       '@commencis/ts-config':
         specifier: 1.0.0
         version: 1.0.0
       '@commitlint/types':
-        specifier: 20.4.0
-        version: 20.4.0
+        specifier: 20.5.0
+        version: 20.5.0
 
   packages/eslint-config:
     dependencies:
@@ -383,6 +383,10 @@ packages:
     resolution: {integrity: sha512-rwkTF55q7Q+6dpSKUmJoScV0f3EpDlWKw2UPzklkLS4o5krMN1tPWAVOgHRtyUTMneIapLeQwaCjn44Td6OzBQ==}
     engines: {node: '>=v18'}
 
+  '@commitlint/config-conventional@20.5.0':
+    resolution: {integrity: sha512-t3Ni88rFw1XMa4nZHgOKJ8fIAT9M2j5TnKyTqJzsxea7FUetlNdYFus9dz+MhIRZmc16P0PPyEfh6X2d/qw8SA==}
+    engines: {node: '>=v18'}
+
   '@commitlint/config-validator@20.5.0':
     resolution: {integrity: sha512-T/Uh6iJUzyx7j35GmHWdIiGRQB+ouZDk0pwAaYq4SXgB54KZhFdJ0vYmxiW6AMYICTIWuyMxDBl1jK74oFp/Gw==}
     engines: {node: '>=v18'}
@@ -437,10 +441,6 @@ packages:
 
   '@commitlint/top-level@20.4.3':
     resolution: {integrity: sha512-qD9xfP6dFg5jQ3NMrOhG0/w5y3bBUsVGyJvXxdWEwBm8hyx4WOk3kKXw28T5czBYvyeCVJgJJ6aoJZUWDpaacQ==}
-    engines: {node: '>=v18'}
-
-  '@commitlint/types@20.4.0':
-    resolution: {integrity: sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw==}
     engines: {node: '>=v18'}
 
   '@commitlint/types@20.5.0':
@@ -3628,7 +3628,7 @@ snapshots:
       '@commitlint/lint': 20.5.0
       '@commitlint/load': 20.5.0(@types/node@12.20.55)(typescript@5.9.3)
       '@commitlint/read': 20.5.0(conventional-commits-parser@6.4.0)
-      '@commitlint/types': 20.4.0
+      '@commitlint/types': 20.5.0
       tinyexec: 1.1.1
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -3654,7 +3654,12 @@ snapshots:
 
   '@commitlint/config-conventional@20.4.2':
     dependencies:
-      '@commitlint/types': 20.4.0
+      '@commitlint/types': 20.5.0
+      conventional-changelog-conventionalcommits: 9.3.1
+
+  '@commitlint/config-conventional@20.5.0':
+    dependencies:
+      '@commitlint/types': 20.5.0
       conventional-changelog-conventionalcommits: 9.3.1
 
   '@commitlint/config-validator@20.5.0':
@@ -3745,11 +3750,6 @@ snapshots:
   '@commitlint/top-level@20.4.3':
     dependencies:
       escalade: 3.2.0
-
-  '@commitlint/types@20.4.0':
-    dependencies:
-      conventional-commits-parser: 6.4.0
-      picocolors: 1.1.1
 
   '@commitlint/types@20.5.0':
     dependencies:
