@@ -1,5 +1,11 @@
 # @commencis/eslint-config
 
+## 3.6.0
+
+### Minor Changes
+
+- chore: update dependencies and add typescript v6 support ([#453](https://github.com/Commencis/js-toolkit/pull/453))
+
 ## 3.5.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @commencis/prettier-config
 
+## 3.2.0
+
+### Minor Changes
+
+- chore: update dependencies ([#453](https://github.com/Commencis/js-toolkit/pull/453))
+
 ## 3.1.0
 
 ### Minor Changes
