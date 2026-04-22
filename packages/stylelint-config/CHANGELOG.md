@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 3.4.0
+
+### Minor Changes
+
+- feat: ignore selector-class-pattern rule ([#456](https://github.com/Commencis/js-toolkit/pull/456))
+
 ## 3.3.0
 
 ### Minor Changes
