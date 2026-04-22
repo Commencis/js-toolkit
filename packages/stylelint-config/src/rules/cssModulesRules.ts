@@ -6,4 +6,5 @@ export const cssModulesRules = {
       ignorePseudoClasses: ['global', 'local'],
     },
   ],
+  'selector-class-pattern': null,
 };
