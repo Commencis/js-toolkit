@@ -1,7 +1,7 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.3/schema.json",
   "changelog": [
-    "@svitejs/changesets-changelog-github-compact",
+    "changesets-changelog-clean",
     { "repo": "Commencis/js-toolkit" }
   ],
   "commit": false,

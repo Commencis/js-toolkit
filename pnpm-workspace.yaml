@@ -1,7 +1,9 @@
-nodeVersion: 24.14.1
+nodeVersion: 24.16.0
 engineStrict: true
 dedupePeers: true
+saveExact: true
+strictDepBuilds: true
 packages:
   - packages/*
-onlyBuiltDependencies:
-  - esbuild
+allowBuilds:
+  esbuild: true
