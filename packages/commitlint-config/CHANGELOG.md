@@ -1,5 +1,15 @@
 # @commencis/commitlint-config
 
+## 4.0.0
+
+### Major Changes
+
+- [BREAKING]: peer dependency `@commitlint/cli` will now require >=v21 _[`#463`](https://github.com/Commencis/js-toolkit/pull/463) [`0e81a57`](https://github.com/Commencis/js-toolkit/commit/0e81a5722db0577ec9ebad0a2c8b4f6e8a43145e) [@ymehmetcan](https://github.com/ymehmetcan)_
+
+### Minor Changes
+
+- Feat: update dependencies _[`#463`](https://github.com/Commencis/js-toolkit/pull/463) [`25f1200`](https://github.com/Commencis/js-toolkit/commit/25f12007c9e04ace265c50ad61a0e87646a410f2) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 3.4.0
 
 ### Minor Changes

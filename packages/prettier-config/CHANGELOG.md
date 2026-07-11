@@ -1,5 +1,11 @@
 # @commencis/prettier-config
 
+## 3.3.0
+
+### Minor Changes
+
+- Feat: update dependencies _[`#463`](https://github.com/Commencis/js-toolkit/pull/463) [`25f1200`](https://github.com/Commencis/js-toolkit/commit/25f12007c9e04ace265c50ad61a0e87646a410f2) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 3.2.0
 
 ### Minor Changes
