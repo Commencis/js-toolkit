@@ -6,6 +6,7 @@ import {
   importRuleset,
   javascriptRuleset,
   nextRuleset,
+  overridesRuleset,
   prettierRuleset,
   reactRuleset,
   typescriptRuleset,
@@ -30,6 +31,7 @@ export function configFactory(options?: ConfigFactoryOptions): FlatConfig {
     ...(react ? [reactRuleset({ reactCompiler, jsxA11y })] : []),
     ...(nextjs ? [nextRuleset] : []),
     prettierRuleset,
+    overridesRuleset,
     ignoresRuleset,
   ];
 
