@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@commencis/ts-config": "1.0.0",
-    "prettier": "3.9.5"
+    "prettier": "3.9.9"
   },
   "peerDependencies": {
     "prettier": ">=3.9"
