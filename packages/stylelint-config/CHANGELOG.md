@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 3.6.0
+
+### Minor Changes
+
+- Chore: update dependencies _[`#476`](https://github.com/Commencis/js-toolkit/pull/476) [`8290e0f`](https://github.com/Commencis/js-toolkit/commit/8290e0f34454121a547be83923fcce3a1b62a045) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 3.5.0
 
 ### Minor Changes

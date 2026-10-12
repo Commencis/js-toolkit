@@ -1,5 +1,11 @@
 # @commencis/lint-staged-config
 
+## 3.3.0
+
+### Minor Changes
+
+- Chore: update dependencies _[`#476`](https://github.com/Commencis/js-toolkit/pull/476) [`72c72be`](https://github.com/Commencis/js-toolkit/commit/72c72beeb6292b7cbc40ea5ed683a9aab88ffde6) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 3.2.0
 
 ### Minor Changes

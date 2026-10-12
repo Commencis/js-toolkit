@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 3.6.0
+
+### Minor Changes
+
+- Chore: update dependencies _[`#476`](https://github.com/Commencis/js-toolkit/pull/476) [`1c8837e`](https://github.com/Commencis/js-toolkit/commit/1c8837e7508ee6b1efa919f470b8ed5d6f92b97a) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 3.5.0
 
 ### Minor Changes
