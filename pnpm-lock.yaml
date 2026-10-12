@@ -281,8 +281,8 @@ importers:
   packages/eslint-plugin:
     dependencies:
       '@typescript-eslint/utils':
-        specifier: 8.63.0
-        version: 8.63.0(eslint@9.39.5)(supports-color@10.2.2)(typescript@6.0.3)
+        specifier: 8.71.1
+        version: 8.71.1(eslint@9.39.5)(supports-color@10.2.2)(typescript@6.0.3)
     devDependencies:
       '@commencis/ts-config':
         specifier: 1.0.0
