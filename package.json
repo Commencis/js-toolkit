@@ -54,7 +54,7 @@
     "@commencis/ts-config": "1.0.0",
     "@commitlint/cli": "21.2.3",
     "@types/node": "24.19.2",
-    "@vitest/coverage-v8": "5.0.4",
+    "@vitest/coverage-v8": "5.0.3",
     "changesets-changelog-clean": "1.4.0",
     "eslint": "9.39.5",
     "husky": "9.1.7",
@@ -63,6 +63,6 @@
     "tsdown": "0.23.1",
     "turbo": "2.11.7",
     "typescript": "6.0.3",
-    "vitest": "5.0.4"
+    "vitest": "5.0.3"
   }
 }
