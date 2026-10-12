@@ -12,3 +12,4 @@ minimumReleaseAgeExclude:
   - '@vitest/spy@5.0.4'
   - vitest@5.0.4
   - '@vitest/coverage-v8@5.0.4'
+  - '@typescript-eslint/utils@8.71.2'
