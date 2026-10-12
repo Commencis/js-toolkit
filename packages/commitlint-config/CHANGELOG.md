@@ -1,5 +1,11 @@
 # @commencis/commitlint-config
 
+## 4.1.0
+
+### Minor Changes
+
+- Chore: update dependencies _[`#476`](https://github.com/Commencis/js-toolkit/pull/476) [`adfe3a1`](https://github.com/Commencis/js-toolkit/commit/adfe3a14d786670b9f1b35e142330b7326216d68) [@ymehmetcan](https://github.com/ymehmetcan)_
+
 ## 4.0.0
 
 ### Major Changes
