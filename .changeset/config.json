@@ -1,11 +1,9 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.3/schema.json",
+  "access": "public",
+  "bumpVersionsWithWorkspaceProtocolOnly": true,
   "changelog": [
     "changesets-changelog-clean",
     { "repo": "Commencis/js-toolkit" }
-  ],
-  "commit": false,
-  "access": "public",
-  "baseBranch": "main",
-  "ignore": []
+  ]
 }
