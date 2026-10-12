@@ -5,5 +5,7 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   dts: true,
   clean: true,
-  inlineOnly: ['@commitlint/types', 'conventional-commits-parser'],
+  deps: {
+    onlyBundle: ['@commitlint/types', 'conventional-commits-parser'],
+  },
 });

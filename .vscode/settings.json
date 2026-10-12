@@ -1,9 +1,15 @@
 {
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
+
   "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedLocales": {
+    "tr": true
+  },
+
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
@@ -14,18 +20,11 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml",
-    "toml"
+    "typescriptreact"
   ],
 
   "stylelint.enable": true,
-  "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
+  "stylelint.validate": ["css", "scss"],
 
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
@@ -34,10 +33,15 @@
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
 
+  "json.schemaDownload.enable": true,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
 
-  "typescript.tsdk": "./node_modules/typescript/lib"
+  "js/ts.tsdk.path": "./node_modules/typescript/lib"
 }
