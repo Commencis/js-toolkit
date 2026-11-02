@@ -20,6 +20,7 @@ runs:
     - name: Install PNPM
       uses: pnpm/action-setup@v6
       with:
+        standalone: false
         cache: true
 
     - name: Install Dependencies
