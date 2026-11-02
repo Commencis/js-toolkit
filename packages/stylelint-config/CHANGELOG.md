@@ -1,5 +1,11 @@
 # @commencis/stylelint-config
 
+## 3.6.1
+
+### Patch Changes
+
+- Fix(deps): update all non-major dependencies _[`#478`](https://github.com/Commencis/js-toolkit/pull/478) [`1e178cf`](https://github.com/Commencis/js-toolkit/commit/1e178cfe8ab9bd57e1b21ba4a963ca1f4f225a70) [@renovate](https://github.com/apps/renovate)_
+
 ## 3.6.0
 
 ### Minor Changes
