@@ -1,5 +1,11 @@
 # @commencis/eslint-plugin
 
+## 3.6.2
+
+### Patch Changes
+
+- Fix(deps): update all non-major dependencies _[`#484`](https://github.com/Commencis/js-toolkit/pull/484) [`546b196`](https://github.com/Commencis/js-toolkit/commit/546b1965b14e76e09f0ffb29271fd0d4996203ce) [@renovate](https://github.com/apps/renovate)_
+
 ## 3.6.1
 
 ### Patch Changes
