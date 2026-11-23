@@ -318,8 +318,8 @@ importers:
   packages/stylelint-config:
     dependencies:
       '@stylistic/stylelint-config':
-        specifier: 5.0.0
-        version: 5.0.0(stylelint@17.16.0)
+        specifier: 6.1.0
+        version: 6.1.0(stylelint@17.16.0)
       postcss-styled-syntax:
         specifier: 0.7.4
         version: 0.7.4(postcss@8.5.32)
@@ -1030,16 +1030,15 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@stylistic/stylelint-config@5.0.0':
-    resolution: {integrity: sha512-AW6S27wEm4DzB+uOZMvRkONIu0ba50VRbFte7qYJgGP4dacS8kAuj8HZJ+s+8kE4GK3XXBcSKLb75a+NfJlbiQ==}
-    engines: {node: '>=20.19.0'}
+  '@stylistic/stylelint-config@6.1.0':
+    resolution: {integrity: sha512-ySdWLMgEUhjOGsUFP9NnXf7YO/aXyDGZFRrg2wKeh1UaKeoAdJKrIDp/+lKw1ZLIEV8gGDJl/28mPD3avP64Ww==}
     peerDependencies:
-      stylelint: ^17.6.0
+      stylelint: ^18.0.0
 
-  '@stylistic/stylelint-plugin@5.3.1':
-    resolution: {integrity: sha512-w6WFLYzQS6nhbcoq8pwYP+OJYYhsdGEiCxY+eINi2+ouDwRLXTucXZj6IrDzkY4di+vsGOPVvJ4/gXChSeOtlw==}
+  '@stylistic/stylelint-plugin@6.0.1':
+    resolution: {integrity: sha512-+lCF7MCl7tGZnWjx853TjTHPdIFK1QZsYJ6mJtUbbhVjERRhIvZdWlzUI3IhtAyHU9pjSpfcfMComsal6coIag==}
     peerDependencies:
-      stylelint: ^17.6.0
+      stylelint: ^18.0.0
 
   '@turbo/darwin-64@2.11.11':
     resolution: {integrity: sha512-HMMeUIEAsmyIbSYn1ySvF/4gGMa0joiTMq4dQDuloIAnOpbtFT3JEiVsYnASdTWDXvplbRbZlqjU1EBeSR9G1A==}
@@ -3879,12 +3878,12 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylistic/stylelint-config@5.0.0(stylelint@17.16.0)':
+  '@stylistic/stylelint-config@6.1.0(stylelint@17.16.0)':
     dependencies:
-      '@stylistic/stylelint-plugin': 5.3.1(stylelint@17.16.0)
+      '@stylistic/stylelint-plugin': 6.0.1(stylelint@17.16.0)
       stylelint: 17.16.0(supports-color@10.2.2)(typescript@6.0.3)
 
-  '@stylistic/stylelint-plugin@5.3.1(stylelint@17.16.0)':
+  '@stylistic/stylelint-plugin@6.0.1(stylelint@17.16.0)':
     dependencies:
       '@csstools/css-parser-algorithms': 4.0.2(@csstools/css-tokenizer@4.0.2)
       '@csstools/css-tokenizer': 4.0.2
