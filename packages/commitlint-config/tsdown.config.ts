@@ -6,6 +6,10 @@ export default defineConfig({
   dts: true,
   clean: true,
   deps: {
-    onlyBundle: ['@commitlint/types', 'conventional-commits-parser'],
+    onlyBundle: [
+      '@commitlint/types',
+      'conventional-commits-parser',
+      'picocolors',
+    ],
   },
 });
